@@ -1,10 +1,25 @@
+body {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
 h1, h2, h3 {
     font-family: 'Tinos Regular';
 }
+
 p {
     font-family: 'PMNCaeciliaSans Text Lt';
     text-align: justify;
 }
+
+@media screen and (max-device-width: 1200px) {
+    body {
+        max-width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
 
 /* Tinos Family */
 @font-face {
