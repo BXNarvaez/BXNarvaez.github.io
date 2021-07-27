@@ -26,28 +26,28 @@ p {
     font-family: 'Tinos Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Tinos Regular'), url("fonts/Tinos/Tinos-Regular.ttf") format('ttf');
+    src: local('Tinos Regular'), url("fonts/Tinos/Tinos-Regular.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'Tinos Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Tinos Bold'), url("fonts/Tinos/Tinos-Bold.ttf") format('ttf');
+    src: local('Tinos Bold'), url("fonts/Tinos/Tinos-Bold.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'Tinos Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Tinos Italic'), url("fonts/Tinos/Tinos-Italic.ttf") format('ttf');
+    src: local('Tinos Italic'), url("fonts/Tinos/Tinos-Italic.ttf") format('truetype');
 }
 
 @font-face {
     font-family: 'Tinos Bold Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Tinos Bold Italic'), url("fonts/Tinos/Tinos-BoldItalic.ttf") format('ttf');
+    src: local('Tinos Bold Italic'), url("fonts/Tinos/Tinos-BoldItalic.ttf") format('truetype');
 }
 
 /* PMN Caecilia Sans Text Family */
