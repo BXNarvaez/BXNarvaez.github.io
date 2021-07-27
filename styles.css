@@ -3,6 +3,7 @@ h1, h2, h3 {
 }
 p {
     font-family: 'PMNCaeciliaSans Text Lt';
+    text-align: justify;
 }
 
 /* Tinos Family */
@@ -10,28 +11,28 @@ p {
     font-family: 'Tinos Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Tinos Regular'), url("Tinos/Tinos-Regular.ttf") format('ttf');
+    src: local('Tinos Regular'), url("fonts/Tinos/Tinos-Regular.ttf") format('ttf');
 }
 
 @font-face {
     font-family: 'Tinos Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Tinos Bold'), url("Tinos/Tinos-Bold.ttf") format('ttf');
+    src: local('Tinos Bold'), url("fonts/Tinos/Tinos-Bold.ttf") format('ttf');
 }
 
 @font-face {
     font-family: 'Tinos Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Tinos Italic'), url("Tinos/Tinos-Italic.ttf") format('ttf');
+    src: local('Tinos Italic'), url("fonts/Tinos/Tinos-Italic.ttf") format('ttf');
 }
 
 @font-face {
     font-family: 'Tinos Bold Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Tinos Bold Italic'), url("Tinos/Tinos-BoldItalic.ttf") format('ttf');
+    src: local('Tinos Bold Italic'), url("fonts/Tinos/Tinos-BoldItalic.ttf") format('ttf');
 }
 
 /* PMN Caecilia Sans Text Family */
@@ -39,68 +40,68 @@ p {
     font-family: 'PMNCaeciliaSans Text Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Regular'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextRg.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Regular'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextRg.woff') format('woff');
 }
     
 @font-face {
     font-family: 'PMNCaeciliaSans Text Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Italic'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextRgIt.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Italic'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextRgIt.woff') format('woff');
 }
    
 @font-face {
     font-family: 'PMNCaeciliaSans Text Th';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Th'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextTh.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Th'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextTh.woff') format('woff');
 }
     
 @font-face {
     font-family: 'PMNCaeciliaSans Text Th Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Th Italic'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextThIt.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Th Italic'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextThIt.woff') format('woff');
 }
     
 @font-face {
     font-family: 'PMNCaeciliaSans Text Lt';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Lt'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextLight.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Lt'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextLight.woff') format('woff');
 }
 
 @font-face {
     font-family: 'PMNCaeciliaSans Text Lt Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Lt Italic'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextLightIt.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Lt Italic'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextLightIt.woff') format('woff');
 }
 
 @font-face {
     font-family: 'PMNCaeciliaSans Text Bd';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Bd'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextBd.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Bd'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextBd.woff') format('woff');
 }
     
 @font-face {
     font-family: 'PMNCaeciliaSans Text Bd Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Bd Italic'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextBdIt.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Bd Italic'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextBdIt.woff') format('woff');
 }
     
 @font-face {
     font-family: 'PMNCaeciliaSans Text Hv';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Hv'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextHv.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Hv'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextHv.woff') format('woff');
 }
 
 @font-face {
     font-family: 'PMNCaeciliaSans Text Hv Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('PMNCaeciliaSans Text Hv Italic'), url('PMNCaeciliaSansText/PMNCaeciliaSansTextHvIt.woff') format('woff');
+    src: local('PMNCaeciliaSans Text Hv Italic'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextHvIt.woff') format('woff');
 }
