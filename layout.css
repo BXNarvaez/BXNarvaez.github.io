@@ -40,7 +40,7 @@
 .nav-project a:link, 
 .nav-main a:link, 
 .nav-project a:visited, 
-.nav-main a:visited { color:midnightblue; }
+.nav-main a:visited { color: midnightblue; }
 
 .nav-project a:hover, 
 .nav-main a:hover { color: lightseagreen; }
@@ -63,7 +63,7 @@ picture, iframe {
 
     .nav-main, .centerColumn { 
         width: 95%;
-        margin: 0px 25px; 
+        margin: 0px 2.5%; 
     }
 
     .nav-main a { float: left; }
