@@ -1,13 +1,12 @@
 .centerColumn {
-    width: 50%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Tinos Regular';
-
 }
 
 .navBar {
-    background-color: turquoise;
+    background-color: white;
     overflow: hidden;
     position: fixed;
     width: 20%;
@@ -17,12 +16,31 @@
 }
 
 .navBar a {
-    float: left;
     display: block;
     font-family: 'Tinos Regular';
     text-decoration: none;
     text-align: center;
     width: 33.3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.minorNav a {
+    display: block;
+    font-family: 'PMNCaeciliaSans Text Hv';
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+}
+
+.minorNav a:link, .navBar a:link, .minorNav a:visited, .navBar a:visited {
+    color:midnightblue;
+}
+
+.minorNav a:hover, .navBar a:hover {
+    color: lightseagreen;
 }
 
 .majorHeading {
@@ -35,24 +53,26 @@
     /* background-color: gray; */
     font-family: 'Tinos Regular';
     text-align: left;
-    padding: 0px 25px;
+    padding: 15px 25px;
+    margin: 0px;
 }
 
 .generalText {
-    /* background-color: gray; */
     font-family: 'PMNCaeciliaSans Text Lt';
+    display: block;
     text-align: justify;
     padding: 15px 25px;
-    /* border: 1px solid black; */
+    margin: 0px;
 }
 
 .mediaAsset {
     display: block;
+    margin: 0px;;
 }
 
 @media screen and (max-width: 1200px) {
     .centerColumn {
-        width: 100%;
+        max-width: 100%;
         margin-left: 25px;
         margin-right: 25px;
     }
@@ -62,6 +82,12 @@
         margin-left: auto;
         margin-right: auto;
         position: sticky;
+    }
+
+    .navBar a {
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
     }
 } 
 
