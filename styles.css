@@ -1,27 +1,49 @@
-body {
-    max-width: 50%;
+.centerColumn {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Tinos Regular';
+
+}
+
+.navBar {
+    background-color: turquoise;
+    overflow: hidden;
+    position: fixed;
+    width: 20%;
+    top: 0;
+    left: 0;
+    margin: 2.5%;
+}
+
+.navBar a {
+    float: left;
+    display: block;
+    font-family: 'Tinos Regular';
+    text-decoration: none;
+    text-align: center;
+    width: 33.3%;
 }
 
 .majorHeading {
-    background-color: gray;
+    /* background-color: gray; */
+    font-family: 'Tinos Regular';
     text-align: center;
 }
 
 .minorHeading {
-    background-color: gray;
+    /* background-color: gray; */
+    font-family: 'Tinos Regular';
     text-align: left;
-    padding-left: 10px;
+    padding: 0px 25px;
 }
 
 .generalText {
-    background-color: gray;
+    /* background-color: gray; */
     font-family: 'PMNCaeciliaSans Text Lt';
     text-align: justify;
     padding: 15px 25px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .mediaAsset {
@@ -29,10 +51,17 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    body {
-        max-width: 100%;
+    .centerColumn {
+        width: 100%;
         margin-left: 25px;
         margin-right: 25px;
+    }
+
+    .navBar {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        position: sticky;
     }
 } 
 
