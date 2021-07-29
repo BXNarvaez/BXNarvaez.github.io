@@ -1,7 +1,7 @@
 /* <Body> */
 .desc-project {
     font-family: 'PMNCaeciliaSans Text Lt';
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     text-align: justify;
 }
@@ -11,14 +11,14 @@
 .heading-nav-main, 
 .heading-page {
     font-family: 'Tinos Regular';
-    font-size: 48px;
+    font-size: 2rem;
     text-decoration: none;
     text-align: center;
 }
 
 .heading-project {
     font-family: 'Tinos Regular';
-    font-size: 24px;
+    font-size: 1.25rem;
     text-decoration: none;
     text-align: left;
 }
@@ -27,26 +27,30 @@
 /* <Navigation> */
 .nav-main nav a {
     font-family: 'PMNCaeciliaSans Text Hv';
-    font-size: 24px;
+    font-size: 1.25rem;
     text-decoration: none;
     text-align: center;
 }
 
 .nav-project a {
     font-family: 'PMNCaeciliaSans Text Hv';
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     text-align: center;
 }
 
 .nav-contact a {
     font-family: 'PMNCaeciliaSans Text Hv';
-    font-size: 16px;
+    font-size: 1rem;
     text-decoration: none;
     text-align: center;
 }
 /* </Navigation> */
 
+@media only screen and (orientation:landscape) {
+    .heading-nav-main, 
+    .heading-page { font-size: 2.5rem; }
+}
 /* <Tinos> */
 @font-face {
     font-family: 'Tinos Regular';
