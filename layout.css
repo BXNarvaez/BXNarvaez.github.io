@@ -6,6 +6,10 @@
 /* </Body> */
 
 /* Headings */
+.heading-nav-main {
+    padding: 5px 25px;
+} 
+
 .heading-page, 
 .heading-project, 
 .desc-project { padding: 15px 25px; }
@@ -15,6 +19,7 @@
 .nav-main {
     top: 0;
     position: sticky;
+    z-index: 5;
 }
 
 .nav-main nav {
@@ -23,7 +28,7 @@
 }
 
 .nav-main nav a {
-    padding: 15px 25px;
+    padding: 5px 25px;
     margin: 0 auto;
     display: block;
 }
@@ -54,11 +59,18 @@
 picture, iframe {
     display: block;
 }
+
+.profile-pic {
+    padding: 0 25px;
+}
 /* </Media> */
 
 /* for Desktop devices */
-@media only screen and (min-width: 1200px) {
-    
+@media only screen and (min-width: 1200px) and (max-width: 1600px){
+    .heading-nav-main, .nav-main nav a {
+        padding: 15px 25px;
+    }
+
     .nav-main { 
         width: 20%;
         margin: 0 2.5%;
@@ -74,17 +86,22 @@ picture, iframe {
     .nav-main nav { flex-direction: column; }
 } 
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1600px) {
+    .heading-nav-main, .nav-main nav a {
+        padding: 15px 25px;
+    }
+
     .nav-main { 
-        width: 20%;
-        margin: 0 2.5%;
+        width: 12.5%;
+        margin: 0 22.5%;
         overflow: hidden;
         position: fixed;
     }
 
     .centerColumn {
-        width: 30%;
+        width: 25%;
         margin: 0px auto;
     }
+
     .nav-main nav { flex-direction: column; }
 }
