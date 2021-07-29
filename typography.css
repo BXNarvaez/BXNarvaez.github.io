@@ -50,6 +50,23 @@
 @media only screen and (orientation:landscape) {
     .heading-nav-main, 
     .heading-page { font-size: 2rem; }
+
+    .heading-project {font-size: 1.625rem;}
+
+    .desc-project { font-size: 1.0625rem;}
+}
+
+@media only screen and (orientation:landscape) and (min-width:1600px) {
+    .heading-nav-main, 
+    .heading-page { font-size: 3rem; }
+
+    .heading-project { font-size: 2rem; }
+
+    .desc-project { font-size: 1.125rem;}
+
+    .nav-main nav a, 
+    .nav-project a, 
+    .nav-contact a { font-size: 1.25rem; }
 }
 /* <Tinos> */
 @font-face {
