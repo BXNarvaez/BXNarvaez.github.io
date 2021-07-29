@@ -11,7 +11,7 @@
 .heading-nav-main, 
 .heading-page {
     font-family: 'Tinos Regular';
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     text-align: center;
 }
@@ -27,7 +27,7 @@
 /* <Navigation> */
 .nav-main nav a {
     font-family: 'PMNCaeciliaSans Text Hv';
-    font-size: 1.25rem;
+    font-size: 1rem;
     text-decoration: none;
     text-align: center;
 }
