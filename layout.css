@@ -1,79 +1,80 @@
+
 /* <Body> */
-.nav-main, .centerColumn { 
-    width: 95%;
-    margin: 0px 2.5%; 
-}
-/* </Body> */
+    .nav-main, .centerColumn { 
+        width: 95%;
+        margin: 0px 2.5%; 
+    }
+    /* </Body> */
 
-/* Headings */
-.heading-nav-main {
-    padding: 5px 25px;
-} 
+    /* Headings */
+    .heading-nav-main {
+        padding: 5px 25px;
+    } 
 
-.heading-page, 
-.heading-project, 
-.desc-project { padding: 15px 25px; }
-/* </Headings> */
+    .heading-page, 
+    .heading-project, 
+    .desc-project { padding: 15px 25px; }
+    /* </Headings> */
 
-/* <Navigation> */
-.nav-main {
-    top: 0;
-    position: sticky;
-    z-index: 5;
-}
+    /* <Navigation> */
+    .nav-main {
+        top: 0;
+        position: sticky;
+        z-index: 5;
+    }
 
-.nav-main nav {
-    display: flex;
-    flex-direction: row;
-}
+    .nav-main nav {
+        display: flex;
+        flex-direction: row;
+    }
 
-.nav-main nav a {
-    padding: 5px 25px;
-    margin: 0 auto;
-    display: block;
-}
+    .nav-main nav a {
+        padding: 5px 25px;
+        margin: 0 auto;
+        display: block;
+    }
 
-.nav-project {
-    display: flex;
-    flex-direction: row-reverse;
-}
+    .nav-project {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
-.nav-project a {
-    padding: 15px 25px;
-    display: block;
-}
+    .nav-project a {
+        padding: 15px 25px;
+        display: block;
+    }
 
-.nav-contact {
-    display: flex;
-    flex-direction: column;
-}
+    .nav-contact {
+        display: flex;
+        flex-direction: column;
+    }
 
-.nav-contact a {
-    padding: 15px 25px;
-    margin: 0 auto;
-    display: block;
-}
-/* </Navigation> */
+    .nav-contact a {
+        padding: 15px 25px;
+        margin: 0 auto;
+        display: block;
+    }
+    /* </Navigation> */
 
-/* <Media> */
-picture, iframe {
-    display: block;
-}
+    /* <Media> */
+    picture, iframe {
+        display: block;
+    }
 
-picture img {
-    width: 100%;
-    height: 100%;
-}
+    picture img {
+        width: 100%;
+        height: 100%;
+    }
 
-.profile-pic {
-    padding: 0 25px;
-}
+    .profile-pic {
+        padding: 0 25px;
+    }
 /* </Media> */
 
 /* for Tablet devices */
 
 /* for Desktop devices */
-@media only screen and (min-width: 1200px) and (max-width: 1600px){
+@media only screen and (orientation: landscape){
     .heading-nav-main, .nav-main nav a {
         padding: 15px 25px;
     }
@@ -93,7 +94,7 @@ picture img {
     .nav-main nav { flex-direction: column; }
 } 
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (orientation: landscape) and (min-width: 1600px) {
     .heading-nav-main, .nav-main nav a {
         padding: 15px 25px;
     }
