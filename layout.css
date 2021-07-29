@@ -66,13 +66,16 @@
         height: 100%;
     }
 
-    .profile-pic {
-        padding: 0 25px;
-    }
+    .profile-pic { padding: 0px 25px; }
 /* </Media> */
 
 /* for Tablet devices */
-
+@media only screen and (orientation: portrait) and (min-width: 675px) {
+    .centerColumn { 
+        width: 50%;
+        margin: 0px auto;
+    }
+}
 /* for Desktop devices */
 @media only screen and (orientation: landscape){
     .heading-nav-main, .nav-main nav a {

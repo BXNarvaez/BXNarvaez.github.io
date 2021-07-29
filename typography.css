@@ -5,6 +5,12 @@
     text-decoration: none;
     text-align: justify;
 }
+
+footer {
+    font-family: 'PMNCaeciliaSans Text Lt';
+    font-size: 0.75rem;
+    text-align: center;
+}
 /* </Body> */
 
 /* <Headings> */
