@@ -62,11 +62,9 @@
     /* </Navigation> */
 
     /* <Media> */
-    picture, iframe {
-        display: block;
-    }
+    picture, iframe { display: block; }
 
-    picture img {
+    img, iframe {
         width: 100%;
         height: 100%;
     }
