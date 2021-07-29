@@ -1,74 +1,94 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
     <head>
+
         <meta charset="UTF-8">
-        <title>The Hex Perplex | Daniel Narvaez</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="application-name" content="The Hex Perplex | Daniel Narvaez">
         <!-- <meta name="msapplication-TileImage" content=""> -->
-        <link rel="stylesheet" href="../styles.css">
-    </head>
-    <header>
-        <h1>Daniel Narvaez</h1>
-        <nav role="navigation" aria-label="main menu">
-            <ol>
-                <li><a href="/index.html">Games</a></li>
-                <!-- <li><a href="/art.html">Art</a></li> -->
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/resume.html">Resume</a></li>
-            </ol>
-        </nav>
-    </header>
-    <body>
-        <h2>The Hex Perplex</h2>
-        <iframe 
-            src="https://player.vimeo.com/video/577847229?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="960" height="540" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="The Hex Perplex Trailer">
-        </iframe>
-        <h3>Description</h3>
-        <p>Welcome to the Hex Perplex! Can you defeat the unstoppable power that lurks among these walls? Master the power of the spell books and vanquish the curse that holds the castle! Use them to fight enemies and alter your terrain! It will surely be a difficult journey!</p>
-        <h3>Dev Info</h3>
-        <p>
-            <ul>
-                <li>Primary Role: Technical Artist</li>
-                <li>Team/Team Size: Made in collaboration with David Queiroga</li>
-                <li>Duration: October 2020, January 2021 (2 Months)</li>
-                <li>Tools Used: Unity, Aseprite, Piskel, BeepBox</li>
-            </ul>
-        </p>
-        <h3>Other Info</h3>
-        <p>
-            <ul>
-                <li>Genre: Roguelike 2D Platformer</li>
-                <li>Platform(s): Web Browser</li>
-                <li>Project Status: Launched (January 2021)</li>
-            </ul>
-        </p>
-        <h3>External Links</h3>
-            <ul>
-                <li><a target="_blank" href="https://danielnarvaezart.itch.io/hexperplex">Itch.io</a></li>
-            </ul>
-        <h3>Contributions</h3>
-        <p>
-            <ul>
-                <li>Scripted player mechanics, enemy behaviors, and level mechanics.</li>
-                <li>Coordinated playtest sessions for both iterations to observe difficulty scaling and the players' understandings of the controls.</li>
-                <li>Created art for scenery, backgrounds, and UI.</li>
-                <li>Designed the Music and SFX.</li>
-                <li>Handled the game's marketing and promotion, and created promotional art and trailers for its release.</li>
-            </ul>
-        </p>
-        <h3>What I learned</h3>
-        <p>
-            <i>The Hex Perplex</i> is the first indie game I made as a personal project. With our team consisting of only 2 people, this experience gave me an insight as to how many roles actually need to be filled for developing a game.
-        </p>
-        <p>
-            Some important lessons I took from this project:
-            <ul>
-                <li><b>Schedule playtests as frequent as possible.</b> Many small decisions can make or break the player's experience. For 2D platformers in particular, it's imperative that both jumping and the core mechanic simply <i>feel</i> good to perform. It's very difficult to get something right the first time, and so the best way to figure out if it's designed well is to actually test it with real players.</li>
-                <br>
-                <li><b>Always try to stay within scope.</b> It's very easy to plan much more than what's possible with a given time frame. Ideally a team should have a hierarchy of priorities. Plans shouldn't be made for another two mechanics if the first one hasn't been polished (or if it's not a fun mechanic in the first place).</li>
-            </ul>
-        </p>
 
+        <title>The Hex Perplex | Daniel Narvaez</title>
+
+        <link rel="stylesheet" href="../reset.css" aria-label="reset stylesheet">
+        <link rel="stylesheet" href="../typography.css" aria-label="typography stylesheet">
+        <link rel="stylesheet" href="../layout.css" aria-label="size and positioning stylesheet">
+        <link rel="stylesheet" href="../color.css" aria-label="color stylesheet">
+
+    </head>
+
+    <body>
+        <header class="nav-main">
+
+            <h1 class="heading-page">Daniel Narvaez</h1>
+
+            <nav role="navigation" aria-label="main menu">
+
+                    <a href="/index.html">Games</a>
+                    <!-- <li><a href="/art.html">Art</a></li> -->
+                    <a href="/about.html">About</a>
+                    <a href="/resume.html">Resume</a>
+
+            </nav>
+
+        </header>
+
+        <h1 class="heading-page">The Hex Perplex</h1>
+
+        <div class="centerColumn">
+
+            <div style="padding: 28.125% 0; position: relative;">
+                <iframe src="https://player.vimeo.com/video/577847229" style="position: absolute; top: 0; left: 0;" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <h2 class="heading-project">Description</h2>
+
+            <p class="desc-project">Welcome to the Hex Perplex! Can you defeat the unstoppable power that lurks among these walls? Master the power of the spell books and vanquish the curse that holds the castle! Use them to fight enemies and alter your terrain! It will surely be a difficult journey!</p>
+
+            <h2 class="heading-project">Dev Info</h2>
+
+            <p class="desc-project">
+                <ul>
+                    <li>Primary Role: Technical Artist</li>
+                    <li>Team/Team Size: Made in collaboration with David Queiroga</li>
+                    <li>Duration: October 2020, January 2021 (2 Months)</li>
+                    <li>Tools Used: Unity, Aseprite, Piskel, BeepBox</li>
+                </ul>
+            </p>
+            <h2 class="heading-project">Other Info</h2>
+            <p>
+                <ul>
+                    <li>Genre: Roguelike 2D Platformer</li>
+                    <li>Platform(s): Web Browser</li>
+                    <li>Project Status: Launched (January 2021)</li>
+                </ul>
+            </p>
+            <h2 class="heading-project">External Links</h2>
+                <ul>
+                    <li><a target="_blank" href="https://danielnarvaezart.itch.io/hexperplex">Itch.io</a></li>
+                </ul>
+            <h2 class="heading-project">Contributions</h2>
+            <p>
+                <ul>
+                    <li>Scripted player mechanics, enemy behaviors, and level mechanics.</li>
+                    <li>Coordinated playtest sessions for both iterations to observe difficulty scaling and the players' understandings of the controls.</li>
+                    <li>Created art for scenery, backgrounds, and UI.</li>
+                    <li>Designed the Music and SFX.</li>
+                    <li>Handled the game's marketing and promotion, and created promotional art and trailers for its release.</li>
+                </ul>
+            </p>
+            <h2 class="heading-project">What I learned</h2>
+            <p>
+                <i>The Hex Perplex</i> is the first indie game I made as a personal project. With our team consisting of only 2 people, this experience gave me an insight as to how many roles actually need to be filled for developing a game.
+            </p>
+            <p>
+                Some important lessons I took from this project:
+                <ul>
+                    <li><b>Schedule playtests as frequent as possible.</b> Many small decisions can make or break the player's experience. For 2D platformers in particular, it's imperative that both jumping and the core mechanic simply <i>feel</i> good to perform. It's very difficult to get something right the first time, and so the best way to figure out if it's designed well is to actually test it with real players.</li>
+                    <br>
+                    <li><b>Always try to stay within scope.</b> It's very easy to plan much more than what's possible with a given time frame. Ideally a team should have a hierarchy of priorities. Plans shouldn't be made for another two mechanics if the first one hasn't been polished (or if it's not a fun mechanic in the first place).</li>
+                </ul>
+            </p>
+        </div>
+        </body>
     </body>
 </html>
