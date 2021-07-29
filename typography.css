@@ -24,14 +24,21 @@
 /* </Headings> */
 
 /* <Navigation> */
-.nav-main a {
-    font-family: 'Tinos Regular';
+.nav-main nav a {
+    font-family: 'PMNCaeciliaSans Text Hv';
     font-size: 24px;
     text-decoration: none;
     text-align: center;
 }
 
 .nav-project a {
+    font-family: 'PMNCaeciliaSans Text Hv';
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-contact a {
     font-family: 'PMNCaeciliaSans Text Hv';
     font-size: 16px;
     text-decoration: none;

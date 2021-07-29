@@ -1,1 +1,6 @@
 .nav-main { background-color: white;}
+
+a:link, 
+a:visited { color: midnightblue; }
+
+a:hover { color: lightseagreen; }

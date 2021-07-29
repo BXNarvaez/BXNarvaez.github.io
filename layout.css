@@ -14,36 +14,42 @@
 /* <Navigation> */
 .nav-main {
     width: 20%;
-    margin: 2.5%;
+    margin: 0 2.5%;
     overflow: hidden;
     position: fixed;
 }
 
-.nav-main a {
-    width: 33.3%;
-    padding: 15px 0px;
+.nav-main nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-main nav a {
+    padding: 15px 25px;
     margin: 0 auto;
     display: block;
 }
 
 .nav-project {
-    padding: 15px 0px 15px 25px;
     display: flex;
     flex-direction: row-reverse;
 }
 
 .nav-project a {
-    padding: 0px 25px;
+    padding: 15px 25px;
     display: block;
 }
 
-.nav-project a:link, 
-.nav-main a:link, 
-.nav-project a:visited, 
-.nav-main a:visited { color: midnightblue; }
+.nav-contact {
+    display: flex;
+    flex-direction: column;
+}
 
-.nav-project a:hover, 
-.nav-main a:hover { color: lightseagreen; }
+.nav-contact a {
+    padding: 15px 25px;
+    margin: 0 auto;
+    display: block;
+}
 /* </Navigation> */
 
 /* <Media> */
@@ -66,5 +72,5 @@ picture, iframe {
         margin: 0px 2.5%; 
     }
 
-    .nav-main a { float: left; }
+    .nav-main nav { flex-direction: row; }
 } 
