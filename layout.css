@@ -60,10 +60,17 @@ picture, iframe {
     display: block;
 }
 
+picture img {
+    width: 100%;
+    height: 100%;
+}
+
 .profile-pic {
     padding: 0 25px;
 }
 /* </Media> */
+
+/* for Tablet devices */
 
 /* for Desktop devices */
 @media only screen and (min-width: 1200px) and (max-width: 1600px){
