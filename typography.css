@@ -15,6 +15,10 @@ ul {
     text-align: left;
 }
 
+b { font-family: 'PMNCaeciliaSans Text Bd'; }
+
+i { font-family: 'PMNCaeciliaSans Text Lt Italic';;}
+
 footer {
     font-family: 'PMNCaeciliaSans Text Lt';
     font-size: 0.75rem;
