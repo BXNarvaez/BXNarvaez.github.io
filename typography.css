@@ -6,6 +6,15 @@
     text-align: justify;
 }
 
+ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    font-family: 'PMNCaeciliaSans Text Lt';
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: left;
+}
+
 footer {
     font-family: 'PMNCaeciliaSans Text Lt';
     font-size: 0.75rem;
@@ -31,21 +40,7 @@ footer {
 /* </Headings> */
 
 /* <Navigation> */
-.nav-main nav a {
-    font-family: 'PMNCaeciliaSans Text Hv';
-    font-size: 1rem;
-    text-decoration: none;
-    text-align: center;
-}
-
-.nav-project a {
-    font-family: 'PMNCaeciliaSans Text Hv';
-    font-size: 1rem;
-    text-decoration: none;
-    text-align: center;
-}
-
-.nav-contact a {
+a {
     font-family: 'PMNCaeciliaSans Text Hv';
     font-size: 1rem;
     text-decoration: none;
@@ -59,7 +54,8 @@ footer {
 
     .heading-project {font-size: 1.625rem;}
 
-    .desc-project { font-size: 1.0625rem;}
+    .desc-project, 
+    a { font-size: 1.0625rem;}
 }
 
 @media only screen and (orientation:landscape) and (min-width:1600px) {
