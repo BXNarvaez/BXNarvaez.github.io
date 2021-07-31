@@ -1,12 +1,20 @@
-.nav-main { background-color: #fbf3e8 }
+.nav-main { background-color: #BFD7EA; }
 
-body { background-color: #204365}
-.centerColumn { background-color: #fbf3e8;
-                color: #232f2f}
+body { background-color: #1A5782;}
 
-.heading-page { color: #991f35}
+.heading-page,
+.heading-project,
+.desc-project,
+.nav-project,
+.nav-contact,
+ul { 
+    background-color: #BFD7EA;
+    color: #082120; 
+}
+
+footer { color: #BFD7EA}
 
 a:link, 
-a:visited { color: black; }
+a:visited { color: #CD5252; }
 
-a:hover { color: #36aaa3; }
+a:hover { color: #B2FFFF; }
