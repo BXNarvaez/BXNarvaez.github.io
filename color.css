@@ -1,6 +1,12 @@
-.nav-main { background-color: white }
+.nav-main { background-color: #fbf3e8 }
+
+body { background-color: #204365}
+.centerColumn { background-color: #fbf3e8;
+                color: #232f2f}
+
+.heading-page { color: #991f35}
 
 a:link, 
-a:visited { color: midnightblue; }
+a:visited { color: black; }
 
-a:hover { color: lightseagreen; }
+a:hover { color: #36aaa3; }
