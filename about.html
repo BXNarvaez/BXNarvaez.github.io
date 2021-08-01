@@ -1,19 +1,3 @@
-<?php
-
-
-if($_POST["message"]) {
-
-
-mail("your@email.address", "Here is the subject line",
-
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-
-}
-
-
-?>
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 
@@ -37,22 +21,22 @@ $_POST["insert your message here"]. "From: an@email.address");
 
         <header>
 
-            <h1 class="heading-nav-main">Daniel Narvaez</h1>
+            <h1 style="margin-top: 0px;">Daniel Narvaez</h1>
 
-            <nav role="navigation" aria-label="main menu">
+            <div class="menu" role="navigation" aria-label="main menu">
 
-                    <a href="/index.html">Games</a>
-                    <!-- <li><a href="/art.html">Art</a></li> -->
-                    <a href="/about.html">About</a>
-                    <a href="/resume.html">Resume</a>
+                <a href="/index.html">Games</a>
+                <!-- <li><a href="/art.html">Art</a></li> -->
+                <a href="/about.html">About</a>
+                <a href="/resume.html">Resume</a>
 
-            </nav>
+            </div>
 
         </header>
 
         <div class="centerColumn">
 
-            <h1 class="heading-page">About</h1>
+            <h1>About</h1>
 
             <picture class="profile-pic">
 
@@ -69,9 +53,9 @@ $_POST["insert your message here"]. "From: an@email.address");
             
             <p class="desc-project">Hey there! I'm Daniel, and I wish you a warm welcome to my webpage. I am a New York-born Puerto Rican raised in the Bronx currently attending Parsons School of Design. I'm a video game designer with passions for systems thinking and proper cultural representation. I have skills in fine art, PCOMP, programming, as well as professional experience developing video games for mobile and PC platforms with Unity. When I'm not making projects, I'm probably dancing Salsa, reading a book, or just playing a video game.</p>
 
-            <h2 class="heading-project" style="text-align: center; margin-top: 5px;">Contact</h2>
+            <h2 style="text-align: center; margin-top: 5px;">Contact</h2>
 
-            <div class="nav-contact">
+            <div class="nav-project" style="flex-direction: column;">
 
                 <a target="_blank" href="https://www.linkedin.com/in/danielnarvaezart/">LinkedIn</a>
                 <a target="_blank" href="https://twitter.com/BXNarvaez">Twitter</a>
@@ -82,7 +66,7 @@ $_POST["insert your message here"]. "From: an@email.address");
 
         <footer>
 
-            <p>&copy; Daniel Narvaez. All content and trademarks property of their respective owners.</p>
+            <p class="copyright">&copy; Daniel Narvaez. All content and trademarks property of their respective owners.</p>
 
         </footer>
 

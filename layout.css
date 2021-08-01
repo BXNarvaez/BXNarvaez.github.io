@@ -1,47 +1,48 @@
 
-/* <Body> */
+/* Global Styles
+------------------------------------------------------------ */
     header, .centerColumn, footer { 
         width: 85%;
         margin: 0 7.5%; 
     }
 
-    footer { margin: 2.5% auto; }
+    h1 { padding: 5px 25px; } 
 
     ul { padding: 15px 50px; }
-    /* </Body> */
 
-    /* Headings */
-    .heading-nav-main { padding: 5px 25px; } 
-
-    .heading-page { 
+    h1 { 
         margin-top: 5px;
         padding: 5px 25px;
     }
 
-    .heading-project, 
+    h2, 
     .desc-project { 
         padding: 15px 25px;
         display: block;
     }
-    /* </Headings> */
 
-    /* <Navigation> */
+/* Header
+------------------------------------------------------------ */
+
     header {
         top: 0;
         position: sticky;
         z-index: 5;
     }
 
-    header nav {
+    .menu {
         display: flex;
         flex-direction: row;
     }
 
-    header nav a {
+    .menu a {
         padding: 5px;
         margin: 0 auto;
         width: 33.33%;
     }
+
+/* Body
+------------------------------------------------------------ */
 
     .nav-project {
         display: flex;
@@ -53,18 +54,16 @@
         display: block;
     }
 
-    .nav-contact {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .nav-contact a {
-        padding: 15px 25px;
+/* Footer
+------------------------------------------------------------ */
+    .copyright {
+        padding: 25px 50px;
         display: block;
     }
-    /* </Navigation> */
 
-    /* <Media> */
+/* Media
+------------------------------------------------------------ */
+
     picture, iframe { 
         margin: 0;
         padding-top: 5px;
@@ -81,16 +80,16 @@
         position: relative; 
         margin-bottom: 10px;
     }
-/* </Media> */
 
-/* for Desktop devices */
+/* Landscape settings
+------------------------------------------------------------ */
+
 @media only screen and (orientation: landscape){
 
-    .heading-page { margin: 0; }
-
-    .heading-nav-main { padding: 5px 25px; }
-    
-    header nav a { padding: 15px 25px; }
+    h1 { 
+        margin: 0; 
+        padding: 5px 25px; 
+    }
 
     header { 
         width: 20%;
@@ -99,13 +98,17 @@
         position: fixed;
     }
 
-    .centerColumn {
+    .centerColumn, footer {
         width: 50%;
         margin: 0 auto; 
     }
 
-    header nav { flex-direction: column; }
-    header nav a { width: auto; }
+    .menu { flex-direction: column; }
+    
+    .menu a { 
+        padding: 15px 25px;
+        width: auto; 
+    }
 } 
 
 @media only screen and (orientation: landscape) and (min-width: 1920px) {
@@ -117,9 +120,6 @@
         position: fixed;
     }
 
-    .centerColumn {
-        width: 25%;
-        margin: 0px auto;
-    }
+    .centerColumn, footer { width: 25%; }
 
 } 

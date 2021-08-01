@@ -1,9 +1,21 @@
-/* <Body> */
+/* Global Styles
+------------------------------------------------------------ */
 body { line-height: 1.5; }
 
-.desc-project {
-    font-family: 'PMNCaeciliaSans Text Lt';
-    font-size: 1rem;
+b { font-family: 'PMNCaeciliaSans Text Bd'; }
+
+i { font-family: 'PMNCaeciliaSans Text Lt Italic'; }
+
+h1 {
+    font-family: 'Tinos Regular';
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Tinos Regular';
+    font-size: 1.25rem;
     text-decoration: none;
     text-align: left;
 }
@@ -17,35 +29,6 @@ ul {
     text-align: left;
 }
 
-b { font-family: 'PMNCaeciliaSans Text Bd'; }
-
-i { font-family: 'PMNCaeciliaSans Text Lt Italic';;}
-
-footer {
-    font-family: 'PMNCaeciliaSans Text Lt';
-    font-size: 0.75rem;
-    text-align: center;
-}
-/* </Body> */
-
-/* <Headings> */
-.heading-nav-main, 
-.heading-page {
-    font-family: 'Tinos Regular';
-    font-size: 2rem;
-    text-decoration: none;
-    text-align: center;
-}
-
-.heading-project {
-    font-family: 'Tinos Regular';
-    font-size: 1.25rem;
-    text-decoration: none;
-    text-align: left;
-}
-/* </Headings> */
-
-/* <Navigation> */
 a {
     font-family: 'PMNCaeciliaSans Text Hv';
     font-size: 1rem;
@@ -53,38 +36,64 @@ a {
     text-align: center;
 }
 
-header nav a { font-size: 1rem;}
-/* </Navigation> */
+/* Header
+------------------------------------------------------------ */
+
+.menu a { font-size: 1rem; }
+
+/* Body
+------------------------------------------------------------ */
+
+.desc-project {
+    font-family: 'PMNCaeciliaSans Text Lt';
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* Footer
+------------------------------------------------------------ */
+
+.copyright {
+    font-family: 'PMNCaeciliaSans Text Lt';
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+/* Landscape Settings
+------------------------------------------------------------ */
 
 @media only screen and (orientation:landscape) {
-    .heading-nav-main, 
-    .heading-page { font-size: 2.5rem; }
+    h1 { font-size: 2.5rem; }
 
-    header nav a { font-size: 1.25rem; }
+    h2 { font-size: 1.625rem; }
 
-    .heading-project {font-size: 1.625rem;}
+    .menu a { font-size: 1.25rem; }
 
     .desc-project, 
     a,
-    ul { font-size: 1.125rem;}
+    ul { font-size: 1rem; }
 
-    footer { font-size: 0.875rem;}
+    footer { font-size: 0.875rem; }
 }
 
 @media only screen and (orientation:landscape) and (min-width: 1920px) {
-    .heading-nav-main, 
-    .heading-page { font-size: 3rem; }
+    h1 { font-size: 3rem; }
 
-    .heading-project { font-size: 2rem; }
+    h2 { font-size: 2rem; }
+
+    .menu a { font-size: 1.5rem; }
 
     .desc-project, 
     a,
-    ul { font-size: 1.25rem;}
+    ul { font-size: 1.25rem; }
 
-    footer { font-size: 1rem;}
+    footer { font-size: 1rem; }
 }
 
-/* <Tinos> */
+/* Tinos Font Family
+------------------------------------------------------------ */
+
 @font-face {
     font-family: 'Tinos Regular';
     font-style: normal;
@@ -112,9 +121,10 @@ header nav a { font-size: 1rem;}
     font-weight: normal;
     src: local('Tinos Bold Italic'), url("fonts/Tinos/Tinos-BoldItalic.ttf") format('truetype');
 }
-/* </Tinos> */
 
-/* <PMN Caecilia Sans Text> */
+/* PMNCaeciliaSans Text Font Family
+------------------------------------------------------------ */
+
 @font-face {
     font-family: 'PMNCaeciliaSans Text Regular';
     font-style: normal;

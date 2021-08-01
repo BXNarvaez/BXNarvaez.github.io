@@ -1,19 +1,22 @@
-header,
-.heading-page,
-.heading-project,
-.desc-project,
-.nav-project,
-.nav-contact,
-ul { 
+/* Global Styles
+------------------------------------------------------------ */
+header, .desc-project, 
+.nav-project, h1, h2, ul { 
     background-color: #BFD7EA;
     color: #082120; 
 }
 
-body { background-color: #1A5782;}
-
-footer { color: #BFD7EA}
-
-a:link, 
-a:visited { color: #CD5252; }
+a:link, a:visited { color: #CD5252; }
 
 a:hover { color: #B2FFFF; }
+
+/* Body
+------------------------------------------------------------ */
+
+body { background-color: #1A5782;}
+
+/* Footer
+------------------------------------------------------------ */
+
+.copyright { color: #BFD7EA; }
+
