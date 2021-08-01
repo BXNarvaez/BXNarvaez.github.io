@@ -1,7 +1,4 @@
-.nav-main { background-color: #BFD7EA; }
-
-body { background-color: #1A5782;}
-
+header,
 .heading-page,
 .heading-project,
 .desc-project,
@@ -11,6 +8,8 @@ ul {
     background-color: #BFD7EA;
     color: #082120; 
 }
+
+body { background-color: #1A5782;}
 
 footer { color: #BFD7EA}
 

@@ -1,9 +1,11 @@
 /* <Body> */
+body { line-height: 1.5rem; }
+
 .desc-project {
     font-family: 'PMNCaeciliaSans Text Lt';
     font-size: 1rem;
     text-decoration: none;
-    text-align: justify;
+    text-align: left;
 }
 
 ul {
@@ -51,7 +53,7 @@ a {
     text-align: center;
 }
 
-.nav-main a { font-size: 1.5rem;}
+header nav a { font-size: 1.5rem;}
 /* </Navigation> */
 
 @media only screen and (orientation:landscape) {
@@ -61,21 +63,25 @@ a {
     .heading-project {font-size: 1.625rem;}
 
     .desc-project, 
-    a { font-size: 1.0625rem;}
+    a,
+    ul { font-size: 1.125rem;}
+
+    footer { font-size: 0.875rem;}
 }
 
-@media only screen and (orientation:landscape) and (min-width:1600px) {
+@media only screen and (orientation:landscape) and (min-width: 1920px) {
     .heading-nav-main, 
     .heading-page { font-size: 3rem; }
 
     .heading-project { font-size: 2rem; }
 
-    .desc-project { font-size: 1.125rem;}
+    .desc-project, 
+    a,
+    ul { font-size: 1.25rem;}
 
-    .nav-main nav a, 
-    .nav-project a, 
-    .nav-contact a { font-size: 1.25rem; }
+    footer { font-size: 1rem;}
 }
+
 /* <Tinos> */
 @font-face {
     font-family: 'Tinos Regular';

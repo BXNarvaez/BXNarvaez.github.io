@@ -1,26 +1,23 @@
 
 /* <Body> */
-    .nav-main, .centerColumn, footer { 
+    header, .centerColumn, footer { 
         width: 85%;
         margin: 0 7.5%; 
     }
 
-    ul { padding: 15px 50px; }
+    footer { margin: 2.5% auto; }
 
-    footer {
-        padding: 25px;
-        margin: 0 auto;
-    }
+    ul { padding: 15px 50px; }
     /* </Body> */
 
     /* Headings */
-    .heading-nav-main {
+    .heading-nav-main { padding: 5px 25px; } 
+
+    .heading-page { 
+        margin-top: 5px;
         padding: 5px 25px;
-    } 
+    }
 
-    .heading-page { margin-top: 5px; }
-
-    .heading-page, 
     .heading-project, 
     .desc-project { 
         padding: 15px 25px;
@@ -29,21 +26,21 @@
     /* </Headings> */
 
     /* <Navigation> */
-    .nav-main {
+    header {
         top: 0;
         position: sticky;
         z-index: 5;
     }
 
-    .nav-main nav {
+    header nav {
         display: flex;
         flex-direction: row;
     }
 
-    .nav-main nav a {
-        padding: 15px 25px;
+    header nav a {
+        padding: 5px 25px;
         margin: 0 auto;
-        display: block;
+        width: 33.33%;
     }
 
     .nav-project {
@@ -63,7 +60,6 @@
 
     .nav-contact a {
         padding: 15px 25px;
-        margin: 0 auto;
         display: block;
     }
     /* </Navigation> */
@@ -89,13 +85,14 @@
 
 /* for Desktop devices */
 @media only screen and (orientation: landscape){
+
     .heading-page { margin: 0; }
 
     .heading-nav-main { padding: 5px 25px; }
     
-    .nav-main nav a { padding: 15px 25px; }
+    header nav a { padding: 15px 25px; }
 
-    .nav-main { 
+    header { 
         width: 20%;
         margin: 0 2.5%;
         overflow: hidden;
@@ -104,20 +101,16 @@
 
     .centerColumn {
         width: 50%;
-        margin: 0px auto;
+        margin: 0 auto; 
     }
 
-    .nav-main nav { flex-direction: column; }
+    header nav { flex-direction: column; }
+    header nav a { width: auto; }
 } 
 
-@media only screen and (orientation: landscape) and (min-width: 1600px) {
-    .heading-page { margin: 0; }
+@media only screen and (orientation: landscape) and (min-width: 1920px) {
 
-    .heading-nav-main { padding: 5px 25px; } 
-    
-    .nav-main nav a { padding: 15px 25px; }
-
-    .nav-main { 
+    header { 
         width: 12.5%;
         margin: 0 22.5%;
         overflow: hidden;
@@ -129,5 +122,4 @@
         margin: 0px auto;
     }
 
-    .nav-main nav { flex-direction: column; }
 } 
