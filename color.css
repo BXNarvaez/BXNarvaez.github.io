@@ -15,6 +15,13 @@ a:hover { color: #B2FFFF; }
 
 body { background-color: #1A5782;}
 
+.flex-container, .dynamic-flex { background-color: #BFD7EA;}
+
+hr { 
+    background-color: #082120; 
+    border-color: #082120;
+}
+
 /* Footer
 ------------------------------------------------------------ */
 

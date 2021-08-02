@@ -6,6 +6,8 @@ b { font-family: 'PMNCaeciliaSans Text Bd'; }
 
 i { font-family: 'PMNCaeciliaSans Text Lt Italic'; }
 
+.bi { font-family: 'PMNCaeciliaSans Text Bd Italic'; }
+
 h1 {
     font-family: 'Tinos Regular';
     font-size: 1.5rem;
@@ -51,6 +53,19 @@ a {
     text-align: left;
 }
 
+.box { 
+    font-family: 'PMNCaeciliaSans Text Lt';
+    font-size: 0.675rem;
+    text-decoration: none;
+}
+
+.flex-container ul, .dynamic-flex ul {
+    font-family: 'PMNCaeciliaSans Text Lt';
+    font-size: 0.675rem;
+    text-decoration: none;
+}
+
+
 /* Footer
 ------------------------------------------------------------ */
 
@@ -71,8 +86,9 @@ a {
     .menu a { font-size: 1.25rem; }
 
     .desc-project, 
-    a,
-    ul { font-size: 1rem; }
+    a, ul { font-size: 1rem; }
+
+    .box, .box ul { font-size: 0.75rem }
 
     footer { font-size: 0.875rem; }
 }
@@ -85,8 +101,9 @@ a {
     .menu a { font-size: 1.5rem; }
 
     .desc-project, 
-    a,
-    ul { font-size: 1.25rem; }
+    a, ul { font-size: 1.25rem; }
+
+    .box { font-size: 0.825rem;}
 
     footer { font-size: 1rem; }
 }
