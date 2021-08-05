@@ -155,7 +155,7 @@
     .dynamic-flex { flex-direction: row; }
 } 
 
-@media only screen and (orientation: landscape) and (min-width: 1600px) {
+@media only screen and (orientation: landscape) and (min-width: 1700px) {
 
     header, .centerColumn, footer { width: 25%; }
 
