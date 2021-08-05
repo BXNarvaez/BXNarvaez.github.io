@@ -1,6 +1,6 @@
 /* Global Styles
 ------------------------------------------------------------ */
-header, .desc-project, 
+header, section, .desc-project, 
 .nav-project, h1, h2, ul { 
     background-color: #BFD7EA;
     color: #082120; 
@@ -15,7 +15,7 @@ a:hover { color: #B2FFFF; }
 
 body { background-color: #1A5782;}
 
-.flex-container, .dynamic-flex { background-color: #BFD7EA;}
+.lined-heading, .flex-row, .dynamic-flex { background-color: #BFD7EA;}
 
 hr { 
     background-color: #082120; 

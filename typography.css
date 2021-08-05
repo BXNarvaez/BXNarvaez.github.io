@@ -59,7 +59,7 @@ a {
     text-decoration: none;
 }
 
-.flex-container ul, .dynamic-flex ul {
+ul.box {
     font-family: 'PMNCaeciliaSans Text Lt';
     font-size: 0.675rem;
     text-decoration: none;
