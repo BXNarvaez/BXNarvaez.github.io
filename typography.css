@@ -53,13 +53,7 @@ a {
     text-align: left;
 }
 
-.box { 
-    font-family: 'PMNCaeciliaSans Text Lt';
-    font-size: 0.675rem;
-    text-decoration: none;
-}
-
-ul.box {
+.box, ul.box { 
     font-family: 'PMNCaeciliaSans Text Lt';
     font-size: 0.675rem;
     text-decoration: none;
@@ -78,34 +72,39 @@ ul.box {
 /* Landscape Settings
 ------------------------------------------------------------ */
 
-@media only screen and (orientation:landscape) {
-    h1 { font-size: 2.5rem; }
+/* 4/3 * original value */
 
-    h2 { font-size: 1.625rem; }
+@media only screen and (orientation:landscape),
+       only screen and (min-width: 641px) {
+    h1 { font-size: 2rem; }
 
-    .menu a { font-size: 1.25rem; }
+    h2 { font-size: 1.66rem; }
+
+    .menu a { font-size: 1.33rem; }
 
     .desc-project, 
-    a, ul { font-size: 1rem; }
+    ul { font-size: 1rem; }
 
-    .box, .box ul { font-size: 0.75rem }
+    .box, ul.box { font-size: 0.9rem }
 
-    footer { font-size: 0.875rem; }
+    .copyright { font-size: 0.66rem; }
 }
 
-@media only screen and (orientation:landscape) and (min-width: 1920px) {
-    h1 { font-size: 3rem; }
+/* 5/3 original value */
 
-    h2 { font-size: 2rem; }
+@media only screen and (orientation:landscape) and (min-width: 1921px) {
+    h1 { font-size: 2.5rem; }
 
-    .menu a { font-size: 1.5rem; }
+    h2 { font-size: 2.0811rem; }
+
+    .menu a { font-size: 1.66rem; }
 
     .desc-project, 
-    a, ul { font-size: 1.25rem; }
+    ul { font-size: 1.25rem; }
 
-    .box { font-size: 0.825rem;}
+    .box, ul.box { font-size: 1.125rem;}
 
-    footer { font-size: 1rem; }
+    footer { font-size: 0.833rem; }
 }
 
 /* Tinos Font Family

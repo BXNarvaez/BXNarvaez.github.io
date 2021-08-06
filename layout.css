@@ -2,12 +2,13 @@
 /* Global Styles
 ------------------------------------------------------------ */
     header, .centerColumn, footer { 
-        width: 85%;
-        margin: 0 7.5%; 
+        width: 320px;
+        max-width: 85%;
+        margin: 0 auto; 
     }
 
     ul { 
-        padding: 5px 35px;
+        padding: 5px 40px;
         display: block;
     }
 
@@ -38,9 +39,8 @@
     }
 
     .menu a {
-        padding: 5px;
         margin: 0 auto;
-        width: 25%;
+        width: auto;
     }
 
 /* Body
@@ -82,7 +82,7 @@
         display: block;
     }
 
-    ul.box{ padding: 5px 15px; }
+    ul.box{ padding: 5px 20px; }
 
     hr {
         display: block;
@@ -127,36 +127,32 @@
 /* Landscape settings
 ------------------------------------------------------------ */
 
-@media only screen and (orientation: landscape){
+@media only screen and (orientation: landscape),
+       only screen and (min-width: 641px) {
 
     h1 { 
         margin: 5px 0px; 
-        padding: 5px 25px; 
+        padding: 0px 20px; 
     }
-
-    /* header { 
-        width: 20%;
-        margin: 0 2.5%;
-        
-    } */
 
     header, .centerColumn, footer {
-        width: 50%;
-        margin: 0 auto; 
+        width: 685px;
+        max-width: 50%;
     }
 
-    /* .menu { flex-direction: column; } */
-    
-    .menu a { 
-        padding: 15px 25px;
-        width: auto; 
+    .nav-project .flex-item {
+        flex: none;
     }
 
-    .dynamic-flex { flex-direction: row; }
+    .dynamic-flex { 
+        flex-direction: row; 
+    }
 } 
 
-@media only screen and (orientation: landscape) and (min-width: 1700px) {
+@media only screen and (min-width: 1921px) {
 
-    header, .centerColumn, footer { width: 25%; }
+    header, .centerColumn, footer { 
+        width: 25%; 
+    }
 
 } 
