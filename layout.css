@@ -32,7 +32,7 @@
         position: sticky;
         z-index: 5;
     }
-
+    
     .menu {
         display: flex;
         flex-direction: row;
