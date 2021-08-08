@@ -1,31 +1,45 @@
+/* Hex Codes
+------------------------------------------------------------
+
+PR Blue: #33B5D5
+PR Red: #D6111B
+
+Dark Blue: #00052B
+Cream: #F2EADA
+
+Dark Gray: #333333
+Light Gray: #DBDBDB
+
+Celeste: #B2FFFF
+Lilac: #DC9BA3
+
+*/
+
 /* Global Styles
 ------------------------------------------------------------ */
 header, section, .desc-project, 
 .nav-project, h1, h2, ul { 
-    background-color: #BFD7EA;
-    color: #082120; 
+    background-color: #DBDBDB;
+    color: black; 
 }
 
-a:link, a:visited { color: #CD5252; }
+a:link, a:visited { color: #D6111B; }
 
-a:hover { color: #B2FFFF; }
+a:hover { color: #DC9BA3; }
 
 /* Body
 ------------------------------------------------------------ */
 
-body { background-color: #1A5782;}
+body { background-color: #F2EADA;}
 
-.lined-heading, .flex-row, .dynamic-flex { background-color: #BFD7EA;}
+.lined-heading, .flex-row, .dynamic-flex { background-color: #DBDBDB;}
 
 hr { 
-    background-color: #082120; 
-    border-color: #082120;
+    background-color: black; 
+    border-color: black;
 }
 
 /* Footer
 ------------------------------------------------------------ */
 
-.copyright { color: #BFD7EA; }
-
-/* Light Blue: #33B5D5 */
-/* Red: #D6111B */
+.copyright { color: #D6111B; }

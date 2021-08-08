@@ -107,6 +107,30 @@ a {
     footer { font-size: 0.833rem; }
 }
 
+/* Bodoni Moda Font Family
+------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'Bodoni Moda Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bodoni Moda Regular'), url("fonts/BodoniModa/BodoniModa_18pt-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Bodoni Moda Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bodoni Moda Bold'), url("fonts/BodoniModa/BodoniModa_18pt-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Bodoni Moda Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bodoni Moda Italic'), url("fonts/BodoniModa/BodoniModa_18pt-Italic.ttf") format('truetype');
+}
+
 /* Tinos Font Family
 ------------------------------------------------------------ */
 
@@ -210,4 +234,3 @@ a {
     font-weight: normal;
     src: local('PMNCaeciliaSans Text Hv Italic'), url('fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextHvIt.woff') format('woff');
 }
-/* </PMN Caecilia Sans Text> */
