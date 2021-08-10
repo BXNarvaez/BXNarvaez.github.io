@@ -22,34 +22,51 @@ Lilac: #DC9BA3
 
 /* Global Styles
 ------------------------------------------------------------ */
-header, section, .desc-project, 
-.nav-project, h1, h2, ul { 
-    background-color: #DDDDDD;
-    color: #202C22; 
+header,
+section,
+.desc-project,
+.nav-project,
+h1,
+h2,
+ul {
+  background-color: #dddddd;
+  color: #202c22;
 }
 
-a:link, a:visited { color: #D6111B; }
+a:link,
+a:visited {
+  color: #d6111b;
+}
 
-a:hover { color: #DC9BA3; }
+a:hover {
+  color: #dc9ba3;
+}
 
 /* Body
 ------------------------------------------------------------ */
 
-body { background-color: #F2EADA;}
+body {
+  background-color: #f2eada;
+}
 
-.lined-heading, .flex-row, .dynamic-flex { background-color: #DDDDDD;}
+.lined-heading,
+.flex-row,
+.dynamic-flex {
+  background-color: #dddddd;
+}
 
-hr { 
-    background-color: #202C22; 
-    border-color: #202C22;
+hr {
+  background-color: #202c22;
+  border-color: #202c22;
 }
 
 /* Footer
 ------------------------------------------------------------ */
 
-.copyright { color: #D6111B; }
+.copyright {
+  color: #d6111b;
+}
 
- 
 /* DARK MODE */
 
 /* header, section, .desc-project, 

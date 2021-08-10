@@ -1,165 +1,170 @@
-
 /* Global Styles
 ------------------------------------------------------------ */
-    header, .centerColumn, footer { 
-        width: 320px;
-        max-width: 85%;
-        margin: 0 auto; 
-    }
+header,
+.centerColumn,
+footer {
+  width: 320px;
+  max-width: 85%;
+  margin: 0 auto;
+}
 
-    ul { 
-        padding: 5px 40px;
-        display: block;
-    }
+ul {
+  padding: 5px 40px;
+  display: block;
+}
 
-    h1 { 
-        margin: 5px 0px;
-        padding: 5px 20px;
-        display: block;
-    }
+h1 {
+  margin: 5px 0px;
+  display: block;
+}
 
-    h2, 
-    .desc-project { 
-        padding: 5px 20px;
-        display: block;
-    }
+h2,
+.desc-project {
+  padding: 5px 20px;
+  display: block;
+}
 
-    .round-box {
-        margin: 5px auto;
-        border: 0px solid none;
-        border-radius: 10px;
-        overflow: hidden;
-    }
+.round-box {
+  padding: 0px;
+  margin: 5px auto;
+  border: 0px solid none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* style="height: 0px; margin: -5px auto 0px;" */
 
 /* Header
 ------------------------------------------------------------ */
 
-    header {
-        top: 0;
-        position: sticky;
-        z-index: 5;
-    }
-    
-    .menu {
-        display: flex;
-        flex-direction: row;
-    }
+header {
+  top: 0;
+  position: sticky;
+  z-index: 5;
+}
 
-    .menu a {
-        margin: 0 auto;
-        width: auto;
-    }
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu a {
+  margin: 0 auto;
+  width: auto;
+}
 
 /* Body
 ------------------------------------------------------------ */
 
-    .nav-project {
-        display: flex;
-        flex-direction: row-reverse;
-    }
+.nav-project {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
-    .nav-project a {
-        padding: 5px 20px;
-        display: block;
-    }
+.nav-project a {
+  padding: 5px 20px;
+  display: block;
+}
 
-    .lined-heading { padding: 5px 20px; }
+.lined-heading {
+  padding: 5px 20px;
+}
 
-    .flex-row {
-        padding: 5px 20px;
-        display: flex;
-        flex-direction: row; 
-    }
+.flex-row {
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+}
 
-    .dynamic-flex {
-        padding: 5px 20px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+.dynamic-flex {
+  padding: 5px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
-    .flex-item { flex: 1 1 50%; }
+.flex-item {
+  flex: 1 1 50%;
+}
 
-    .lined-heading *, .flex-item * { 
-        padding: 0; 
-        margin: 0; 
-    }
+.lined-heading *,
+.flex-item * {
+  padding: 0;
+  margin: 0;
+}
 
-    .box {
-        display: block;
-    }
+.box {
+  display: block;
+}
 
-    ul.box{ padding: 5px 20px; }
+ul.box {
+  padding: 5px 20px;
+}
 
-    hr {
-        display: block;
-        /* margin: 0px 10px; */
-        border-style: solid;
-        border-width: 1.5px;
-    }
-
-    section { 
-        padding: 5px 0px;
-        margin: 5px 0px; 
-    }
+hr {
+  display: block;
+  /* margin: 0px 10px; */
+  border-style: solid;
+  border-width: 1.5px;
+}
 
 /* Footer
 ------------------------------------------------------------ */
-    .copyright {
-        padding: 25px 50px;
-        display: block;
-    }
+.copyright {
+  padding: 25px 50px;
+  display: block;
+}
 
 /* Media
 ------------------------------------------------------------ */
-    iframe {
-        width: 100%;
-        height: 100%;
-        display: block; 
-    }
+iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
-    img { 
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 5px 0px; 
-    }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 5px 0px;
+}
 
-    .video { 
-        padding: 28.125% 0; 
-        position: relative; 
-        margin: 5px 0px;
-    }
+.video {
+  padding: 28.125% 0;
+  position: relative;
+  margin: 5px 0px;
+}
 
 /* Landscape settings
 ------------------------------------------------------------ */
 
 @media only screen and (orientation: landscape),
-       only screen and (min-width: 641px) {
+  only screen and (min-width: 641px) {
+  h1 {
+    margin: 5px 0px;
+    padding: 0px 20px;
+  }
 
-    h1 { 
-        margin: 5px 0px; 
-        padding: 0px 20px; 
-    }
+  header,
+  .centerColumn,
+  footer {
+    width: 685px;
+    max-width: 50%;
+  }
 
-    header, .centerColumn, footer {
-        width: 685px;
-        max-width: 50%;
-    }
+  .nav-project .flex-item {
+    flex: none;
+  }
 
-    .nav-project .flex-item {
-        flex: none;
-    }
-
-    .dynamic-flex { 
-        flex-direction: row; 
-    }
-} 
+  .dynamic-flex {
+    flex-direction: row;
+  }
+}
 
 @media only screen and (min-width: 1921px) {
-
-    header, .centerColumn, footer { 
-        width: 25%; 
-    }
-
-} 
+  header,
+  .centerColumn,
+  footer {
+    width: 25%;
+  }
+}
