@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="layout.css" aria-label="size and positioning stylesheet">
         <link rel="stylesheet" href="color.css" aria-label="color stylesheet">
 
+        <script src="toggleInfo.js" defer></script>
+
     </head>
 
     <body>
@@ -44,12 +46,11 @@
                         srcset="images/clock/Clock1920x480.jpg 1920w,
                                 images/clock/Clock2560x640.jpg 2560w" >
                 <source srcset="images/clock/Clock960x240.jpg 960w" >
-                <img  class="round-box" src="images/clock/Clock960x240.jpg" alt="Clock Out!!" 
-                    width="100%" height="auto">
+                <img class="round-box" src="images/clock/Clock960x240.jpg" alt="Clock Out!!">
 
             </picture>
 
-            <section class="round-box">
+            <section class="round-box collapsible-box">
 
                 <h2>Clock Out!!</h2>
 
@@ -70,10 +71,10 @@
                         srcset="images/hex/Hex1920x480.jpg 1920w,
                                 images/hex/Hex2560x640.jpg 2560w">
                 <source srcset="images/hex/Hex960x240.jpg 960w">
-                <img class="round-box" src="images/hex/Hex960x240.jpg" alt="The Hex Perplex">
+                <img class="round-box" onclick="GetTotalHeight(0)" src="images/hex/Hex960x240.jpg" alt="The Hex Perplex">
             </picture>
 
-            <section class="round-box">
+            <section class="round-box collapsible-box">
 
                 <h2>The Hex Perplex</h2>
 
