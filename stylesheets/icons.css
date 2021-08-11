@@ -1,0 +1,88 @@
+/* Switch
+------------------------------------------------------------ */
+
+.switch {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  height: auto;
+  margin: 5px auto;
+}
+
+.switch * {
+  margin: 5px;
+  padding: 0px;
+  display: block;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+
+label {
+  cursor: pointer;
+  width: 2.875rem;
+  height: 1.563rem;
+  display: block;
+  border-radius: 1.563rem;
+  position: relative;
+  text-overflow: unset;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  inset: 0.125rem 0rem 0rem 0.125rem;
+  width: 1.313rem;
+  height: 1.313rem;
+  border-radius: 1.313rem;
+  transition: 0.3s;
+}
+
+input:checked + label:after {
+  left: calc(100% - 0.125rem);
+  transform: translateX(-100%);
+}
+
+@media only screen and (orientation: landscape),
+  only screen and (min-width: 641px) {
+  label {
+    width: 3.833rem;
+    height: 2.125rem;
+    border-radius: 2.125rem;
+  }
+
+  label:after {
+    inset: 0.167rem 0 0 0.167rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 1.75rem;
+  }
+
+  input:checked + label:after {
+    left: calc(100% - 0.167rem);
+  }
+}
+
+/* Hamburger Menu
+------------------------------------------------------------ */
+
+@media only screen and (orientation: landscape) and (min-width: 1921px) {
+  label {
+    width: 4.792rem;
+    height: 2.604rem;
+    border-radius: 2.604rem;
+  }
+
+  label:after {
+    inset: 0.212rem 0 0 0.212rem;
+    width: 2.18rem;
+    height: 2.18rem;
+    border-radius: 2.18rem;
+  }
+  input:checked + label:after {
+    left: calc(100% - 0.213rem);
+  }
+}

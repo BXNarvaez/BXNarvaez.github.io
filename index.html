@@ -10,23 +10,24 @@
 
         <title>Games | Daniel Narvaez</title>
 
-        <link rel="stylesheet" href="reset.css" aria-label="reset stylesheet">
-        <link rel="stylesheet" href="typography.css" aria-label="typography stylesheet">
-        <link rel="stylesheet" href="layout.css" aria-label="size and positioning stylesheet">
-        <link rel="stylesheet" href="color.css" aria-label="color stylesheet">
+        <link rel="stylesheet" href="stylesheets/reset.css" aria-label="reset stylesheet">
+        <link rel="stylesheet" href="stylesheets/typography.css" aria-label="typography stylesheet">
+        <link rel="stylesheet" href="stylesheets/layout.css" aria-label="layout stylesheet">
+        <link rel="stylesheet" href="stylesheets/icons.css" aria-label="icons stylesheet">
+        <link rel="stylesheet" href="stylesheets/color.css" aria-label="color stylesheet">
 
         <script src="toggleInfo.js" defer></script>
 
     </head>
 
-    <body>
+    <body class="light-mode">
 
         <header class="round-box" style="margin-top: 0px; border-radius: 0px 0px 10px 10px;">
 
             <h1>Daniel Narvaez</h1>
 
             <div class="menu" role="navigation" aria-label="main menu">
-
+    
                 <a href="/index.html">Games</a>
                 <a href="/art.html">Art</a>
                 <a href="/about.html">About</a>
@@ -36,11 +37,22 @@
 
         </header>
 
-        <div class="centerColumn">
+        <div class="centerColumn" id="menu">
+            <!-- collapsible -->
+            <div class="round-box ">
+
+                <div class="switch">
+                    <input type="checkbox" id="theme-switch"><label class="switch-bg" for="theme-switch">
+                    </label>
+    
+                    <p class="settings">Current Theme: Light </p>
+                </div>
+    
+            </div>
 
             <h1 class="round-box">Games</h1>
 
-            <section style="position: relative;" onclick="ToggleProjectInfo(this)">
+            <section class="project-box" onclick="ToggleProjectInfo(this)">
             
                 <h2 class="round-box abs-heading">Clock Out!!</h2>
 
@@ -70,7 +82,7 @@
 
             </section>
 
-            <section style="position: relative;" onclick="ToggleProjectInfo(this)">
+            <section class="project-box" onclick="ToggleProjectInfo(this)">
             
                 <h2 class="round-box abs-heading">The Hex Perplex</h2>
 

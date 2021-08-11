@@ -1,0 +1,84 @@
+/* Variables
+------------------------------------------------------------ */
+
+:root {
+  --cream: #f2eada;
+  --darkBlue: #00052b;
+
+  --lightGray: #ddd;
+  --darkGray: #333;
+
+  --charcoalGreen: #202c22;
+  --fadedViolet: #f4f1f5;
+
+  --puertoRicoRed: #d6111b;
+  --puertoRicoBlue: #33b5d5;
+
+  --lilac: #dc9ba3;
+  --celeste: #b2ffff;
+}
+
+.light-mode {
+  --themeBackground: var(--cream);
+  --themePanel: var(--lightGray);
+  --themeText: var(--charcoalGreen);
+  --themeLink: var(--puertoRicoRed);
+  --themeHover: var(--lilac);
+}
+
+.dark-mode {
+  --themeBackground: var(--darkBlue);
+  --themePanel: var(--darkGray);
+  --themeText: var(--fadedViolet);
+  --themeLink: var(--puertoRicoBlue);
+  --themeHover: var(--celeste);
+}
+
+/* Styles
+------------------------------------------------------------ */
+
+header,
+.centerColumn * {
+  background-color: var(--themePanel);
+  color: var(--themeText);
+}
+
+.menu a,
+.nav-project a {
+  color: var(--themeLink);
+}
+
+a:hover {
+  color: var(--themeHover);
+}
+
+body {
+  background-color: var(--themeBackground);
+}
+
+hr {
+  background-color: var(--charcoalGreen);
+  border-color: var(--charcoalGreen);
+  color: var(--charcoalGreen);
+}
+
+.copyright {
+  color: var(--themeLink);
+}
+
+.switch-bg {
+  background: var(--themeBackground);
+}
+
+.switch-bg:after {
+  background: var(--themeLink);
+}
+
+input:checked + .switch-bg {
+  background: var(--themeBackground);
+}
+
+* {
+  transition: background-color 0.6s ease, border-color 0.6s ease,
+    color 0.6s ease;
+}
