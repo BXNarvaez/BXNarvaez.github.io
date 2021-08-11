@@ -33,13 +33,23 @@ h2,
 }
 
 .collapsible-box {
-  max-height: 100px;
-  transition: max-height 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  max-height: 0px;
+  margin: -2.5px auto;
+  transition: max-height 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    margin 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.collapsible-box:hover {
-  max-height: 500px;
+.active-box {
+  max-height: 300px;
   margin: 5px auto;
+}
+
+.abs-heading {
+  margin: 5px;
+  position: absolute;
+  padding: 0px 5px;
+  z-index: 3;
+  max-height: 80px;
 }
 
 /* style="height: 0px; margin: -5px auto 0px;" */
@@ -137,7 +147,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  margin: 5px 0px;
 }
 
 .video {

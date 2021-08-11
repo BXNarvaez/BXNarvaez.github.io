@@ -40,52 +40,62 @@
 
             <h1 class="round-box">Games</h1>
 
-            <picture>
+            <section style="position: relative;" onclick="ToggleProjectInfo(this)">
+            
+                <h2 class="round-box abs-heading">Clock Out!!</h2>
 
-                <source media="(min-width:1280px)"
-                        srcset="images/clock/Clock1920x480.jpg 1920w,
-                                images/clock/Clock2560x640.jpg 2560w" >
-                <source srcset="images/clock/Clock960x240.jpg 960w" >
-                <img class="round-box" src="images/clock/Clock960x240.jpg" alt="Clock Out!!">
-
-            </picture>
+                <picture>
+    
+                    <source media="(min-width:1280px)"
+                            srcset="images/clock/Clock1920x480.jpg 1920w,
+                                    images/clock/Clock2560x640.jpg 2560w" >
+                    <source srcset="images/clock/Clock960x240.jpg 960w" >
+                    <img class="round-box" src="images/clock/Clock960x240.jpg" alt="Clock Out!!">
+    
+                </picture>
+            
+            </section>
 
             <section class="round-box collapsible-box">
-
-                <h2>Clock Out!!</h2>
 
                 <p class="desc-project">Fight your bosses (literally) as an unpaid intern in Clock Out!!, an arcade-style fighting game. Wreck chaos, climb the corporate ladder, and fight the system! Square up against unique bosses from different departments, from catty coworkers to slothful supervisors. Upgrade your resume and improve your skills as you climb up. Liquidate the company and bosses as you take down the higher-ups one by one!
                 </p>
     
-                <div class="nav-project">
+                <nav class="nav-project">
     
                     <a class="flex-item" href="gamesProjects/game1.html">Read More</a>
                     <a class="flex-item" target="_blank" href="https://danielnarvaezart.itch.io/clockout">Website</a>
     
-                </div>
+                </nav>
 
             </section>
 
-            <picture>
-                <source media="(min-width:1280px)"
-                        srcset="images/hex/Hex1920x480.jpg 1920w,
-                                images/hex/Hex2560x640.jpg 2560w">
-                <source srcset="images/hex/Hex960x240.jpg 960w">
-                <img class="round-box" onclick="GetTotalHeight(0)" src="images/hex/Hex960x240.jpg" alt="The Hex Perplex">
-            </picture>
+            <section style="position: relative;" onclick="ToggleProjectInfo(this)">
+            
+                <h2 class="round-box abs-heading">The Hex Perplex</h2>
 
-            <section class="round-box collapsible-box">
+                <picture>
+    
+                    <source media="(min-width:1280px)"
+                            srcset="images/hex/Hex1920x480.jpg 1920w,
+                                    images/hex/Hex2560x640.jpg 2560w">
+                    <source srcset="images/hex/Hex960x240.jpg 960w">
+                    <img class="round-box" src="images/hex/Hex960x240.jpg" alt="The Hex Perplex">
+    
+                </picture>
+            
+            </section>
 
-                <h2>The Hex Perplex</h2>
+            <section class="round-box collapsible-box" id="projectInfo_0">
 
                 <p class="desc-project">Welcome to the Hex Perplex! Can you defeat the unstoppable power that lurks among these walls? Master the power of the spell books and vanquish the curse that holds the castle! Use them to fight enemies and alter your terrain! It will surely be a difficult journey!</p>
 
-                <div class="nav-project">
+                <nav class="nav-project">
 
                     <a class="flex-item" href="gamesProjects/game0.html">Read More</a>
                     <a class="flex-item" target="_blank" href="https://danielnarvaezart.itch.io/hexperplex">Website</a>
 
-                </div>
+                </nav>
 
             </section>
 
