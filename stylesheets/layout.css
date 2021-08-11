@@ -18,6 +18,10 @@ h1 {
   display: block;
 }
 
+.project-title {
+  text-align: center;
+}
+
 h2,
 .desc-project {
   padding: 5px 20px;

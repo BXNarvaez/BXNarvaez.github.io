@@ -58,9 +58,9 @@ body {
 }
 
 hr {
-  background-color: var(--charcoalGreen);
-  border-color: var(--charcoalGreen);
-  color: var(--charcoalGreen);
+  background-color: var(--themeText);
+  border-color: var(--themeText);
+  color: var(--themeText);
 }
 
 .copyright {

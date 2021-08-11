@@ -178,14 +178,15 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("Tinos Regular"),
-    url("fonts/Tinos/Tinos-Regular.ttf") format("truetype");
+    url("/fonts/Tinos/Tinos-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Tinos Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Tinos Bold"), url("fonts/Tinos/Tinos-Bold.ttf") format("truetype");
+  src: local("Tinos Bold"),
+    url("/fonts/Tinos/Tinos-Bold.ttf") format("truetype");
 }
 
 @font-face {
@@ -193,7 +194,7 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("Tinos Italic"),
-    url("fonts/Tinos/Tinos-Italic.ttf") format("truetype");
+    url("/fonts/Tinos/Tinos-Italic.ttf") format("truetype");
 }
 
 @font-face {
@@ -201,7 +202,7 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("Tinos Bold Italic"),
-    url("fonts/Tinos/Tinos-BoldItalic.ttf") format("truetype");
+    url("/fonts/Tinos/Tinos-BoldItalic.ttf") format("truetype");
 }
 
 /* PMNCaeciliaSans Text Font Family
@@ -212,7 +213,7 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Regular"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextRg.woff") format("woff");
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextRg.woff") format("woff");
 }
 
 @font-face {
@@ -220,7 +221,8 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Italic"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextRgIt.woff") format("woff");
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextRgIt.woff")
+      format("woff");
 }
 
 @font-face {
@@ -228,7 +230,7 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Th"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextTh.woff") format("woff");
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextTh.woff") format("woff");
 }
 
 @font-face {
@@ -236,7 +238,8 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Th Italic"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextThIt.woff") format("woff");
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextThIt.woff")
+      format("woff");
 }
 
 @font-face {
@@ -244,7 +247,7 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Lt"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextLight.woff")
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextLight.woff")
       format("woff");
 }
 
@@ -253,7 +256,7 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Lt Italic"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextLightIt.woff")
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextLightIt.woff")
       format("woff");
 }
 
@@ -262,7 +265,7 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Bd"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextBd.woff") format("woff");
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextBd.woff") format("woff");
 }
 
 @font-face {
@@ -270,7 +273,8 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Bd Italic"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextBdIt.woff") format("woff");
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextBdIt.woff")
+      format("woff");
 }
 
 @font-face {
@@ -278,7 +282,7 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Hv"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextHv.woff") format("woff");
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextHv.woff") format("woff");
 }
 
 @font-face {
@@ -286,5 +290,6 @@ ul.box {
   font-style: normal;
   font-weight: normal;
   src: local("PMNCaeciliaSans Text Hv Italic"),
-    url("fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextHvIt.woff") format("woff");
+    url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextHvIt.woff")
+      format("woff");
 }
