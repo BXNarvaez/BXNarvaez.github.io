@@ -10,11 +10,13 @@
 
         <title>Clock Out!! | Daniel Narvaez</title>
 
-        <link rel="stylesheet" href="stylesheets/reset.css" aria-label="reset stylesheet">
-        <link rel="stylesheet" href="stylesheets/typography.css" aria-label="typography stylesheet">
-        <link rel="stylesheet" href="stylesheets/layout.css" aria-label="layout stylesheet">
-        <link rel="stylesheet" href="stylesheets/icons.css" aria-label="icons stylesheet">
-        <link rel="stylesheet" href="stylesheets/color.css" aria-label="color stylesheet">
+        <link rel="stylesheet" href="/stylesheets/reset.css" aria-label="reset stylesheet">
+        <link rel="stylesheet" href="/stylesheets/typography.css" aria-label="typography stylesheet">
+        <link rel="stylesheet" href="/stylesheets/layout.css" aria-label="layout stylesheet">
+        <link rel="stylesheet" href="/stylesheets/icons.css" aria-label="icons stylesheet">
+        <link rel="stylesheet" href="/stylesheets/color.css" aria-label="color stylesheet">
+
+        <script src="/functions.js" defer></script>
 
     </head>
 
@@ -161,13 +163,27 @@
 
             </section>
 
-            <footer>
+            <div class="round-box">
 
-                <p class="copyright">&copy; Daniel Narvaez. All content and trademarks property of their respective owners.</p>
+                <div class="switch">
+
+                    <p class="settings">Dark</p>
+
+                    <input type="checkbox" id="theme-switch"><label class="switch-bg" for="theme-switch">
+                    </label>
     
-            </footer>
+                    <p class="settings">Light</p>
+                </div>
+    
+            </div>
 
         </div>
+
+        <footer>
+
+            <p class="copyright">&copy; Daniel Narvaez. All content and trademarks property of their respective owners.</p>
+
+        </footer>
 
     </body>
 

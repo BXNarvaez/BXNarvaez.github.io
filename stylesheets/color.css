@@ -2,7 +2,7 @@
 ------------------------------------------------------------ */
 
 :root {
-  --cream: #f2eada;
+  --cream: #fcf5e6;
   --darkBlue: #00052b;
 
   --lightGray: #ddd;
@@ -50,6 +50,7 @@ header,
 
 a:hover {
   color: var(--themeHover);
+  transition: color 0.3s ease;
 }
 
 body {

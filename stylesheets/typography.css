@@ -18,7 +18,7 @@ i {
 
 h1 {
   font-family: "Tinos Regular";
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-decoration: none;
   text-align: center;
 }
@@ -53,14 +53,8 @@ a {
   font-size: 1rem;
 }
 
+.desc-project,
 .settings {
-  font-family: "PMNCaeciliaSans Text Lt";
-  font-size: 1rem;
-  text-decoration: none;
-  text-align: left;
-}
-
-.desc-project {
   font-family: "PMNCaeciliaSans Text Lt";
   font-size: 0.75rem;
   text-decoration: none;
@@ -91,19 +85,19 @@ ul.box {
 @media only screen and (orientation: landscape),
   only screen and (min-width: 641px) {
   h1 {
-    font-size: 2rem;
+    font-size: 2.33rem;
   }
 
   h2 {
     font-size: 1.66rem;
   }
 
-  .menu a,
-  .settings {
+  .menu a {
     font-size: 1.33rem;
   }
 
   .desc-project,
+  .settings,
   ul {
     font-size: 1rem;
   }
@@ -122,19 +116,19 @@ ul.box {
 
 @media only screen and (orientation: landscape) and (min-width: 1921px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.92rem;
   }
 
   h2 {
     font-size: 2.0811rem;
   }
 
-  .menu a,
-  .settings {
+  .menu a {
     font-size: 1.66rem;
   }
 
   .desc-project,
+  .settings,
   ul {
     font-size: 1.25rem;
   }

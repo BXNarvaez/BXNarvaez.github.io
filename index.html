@@ -10,13 +10,13 @@
 
         <title>Games | Daniel Narvaez</title>
 
-        <link rel="stylesheet" href="stylesheets/reset.css" aria-label="reset stylesheet">
-        <link rel="stylesheet" href="stylesheets/typography.css" aria-label="typography stylesheet">
-        <link rel="stylesheet" href="stylesheets/layout.css" aria-label="layout stylesheet">
-        <link rel="stylesheet" href="stylesheets/icons.css" aria-label="icons stylesheet">
-        <link rel="stylesheet" href="stylesheets/color.css" aria-label="color stylesheet">
+        <link rel="stylesheet" href="/stylesheets/reset.css" aria-label="reset stylesheet">
+        <link rel="stylesheet" href="/stylesheets/typography.css" aria-label="typography stylesheet">
+        <link rel="stylesheet" href="/stylesheets/layout.css" aria-label="layout stylesheet">
+        <link rel="stylesheet" href="/stylesheets/icons.css" aria-label="icons stylesheet">
+        <link rel="stylesheet" href="/stylesheets/color.css" aria-label="color stylesheet">
 
-        <script src="toggleInfo.js" defer></script>
+        <script src="functions.js" defer></script>
 
     </head>
 
@@ -37,20 +37,7 @@
 
         </header>
 
-        <div class="centerColumn" id="menu">
-            <!-- collapsible -->
-            <div class="round-box ">
-
-                <div class="switch">
-                    <input type="checkbox" id="theme-switch"><label class="switch-bg" for="theme-switch">
-                    </label>
-    
-                    <p class="settings">Current Theme: Light </p>
-                </div>
-    
-            </div>
-
-            <h1 class="round-box">Games</h1>
+        <div class="centerColumn">
 
             <section class="project-box" onclick="ToggleProjectInfo(this)">
             
@@ -110,6 +97,17 @@
                 </nav>
 
             </section>
+
+            <div class="round-box">
+
+                <div class="switch">
+                    <input type="checkbox" id="theme-switch"><label class="switch-bg" for="theme-switch">
+                    </label>
+    
+                    <p class="settings">Current Theme: Light </p>
+                </div>
+    
+            </div>
 
         </div>
 
