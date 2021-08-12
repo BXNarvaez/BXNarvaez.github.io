@@ -18,7 +18,7 @@
   --celeste: #b2ffff;
 }
 
-.light-mode {
+.light {
   --themeBackground: var(--cream);
   --themePanel: var(--lightGray);
   --themeText: var(--charcoalGreen);
@@ -26,7 +26,7 @@
   --themeHover: var(--lilac);
 }
 
-.dark-mode {
+.dark {
   --themeBackground: var(--darkBlue);
   --themePanel: var(--darkGray);
   --themeText: var(--fadedViolet);
@@ -67,10 +67,12 @@ hr {
   color: var(--themeLink);
 }
 
+/* Capsule Background */
 .switch-bg {
   background: var(--themeBackground);
 }
 
+/* Circle within the capsule */
 .switch-bg:after {
   background: var(--themeLink);
 }
