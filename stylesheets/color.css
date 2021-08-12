@@ -18,7 +18,7 @@
   --celeste: #b2ffff;
 }
 
-.light {
+html {
   --themeBackground: var(--cream);
   --themePanel: var(--lightGray);
   --themeText: var(--charcoalGreen);
@@ -26,7 +26,7 @@
   --themeHover: var(--lilac);
 }
 
-.dark {
+html[data-theme="dark"] {
   --themeBackground: var(--darkBlue);
   --themePanel: var(--darkGray);
   --themeText: var(--fadedViolet);
