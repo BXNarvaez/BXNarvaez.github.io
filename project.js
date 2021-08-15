@@ -2,31 +2,27 @@ class GameProject {
     constructor (
         //Defining the parameters
         name, 
-        description,
-        roles,
-        team,
-        duration,
-        tools,
-        genres,
-        platforms,
-        status
+        images,
+        summary,
+        externalLink,
+        internalLink
     ) {
         //Defining the properties
+
+        //The name of the project
         this.name = name;
-        this.description = description;
-        this.devInfo = {
-            roles: roles,
-            team: team,
-            duration: duration,
-            tools: tools
-        }
-        this.genres = genres;
-        this.platforms = platforms;
-        this.status = status;
-    }
-    //Add methods
-    UpdateStatus(newStatus){
-        this.status = newStatus;
+
+        //An array of the srcset images for the games page
+        this.images = images;
+
+        //Short summary about the entire project. Acts as a hook for the viewer.
+        this.summary = summary;
+
+        //Link to an external webpage
+        this.externalLink = externalLink;
+
+        //Link to the game's page within the website
+        this.internalLink = internalLink;
     }
 }
 

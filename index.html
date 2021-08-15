@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="application-name" content="Games | Daniel Narvaez">
-        <!-- <meta name="msapplication-TileImage" content=""> -->
+        <meta name="msapplication-TileImage" content="">
 
         <title>Games | Daniel Narvaez</title>
 
@@ -16,111 +16,117 @@
         <link rel="stylesheet" href="/stylesheets/icons.css" aria-label="icons stylesheet">
         <link rel="stylesheet" href="/stylesheets/color.css" aria-label="color stylesheet">
 
+        <script type="module" src="project.js" defer></script>
+        <!-- <script type="module" src="test.js" defer></script> -->
         <script src="functions.js" defer></script>
 
     </head>
 
     <body>
-
         <header class="round-box" style="margin-top: 0px; border-radius: 0px 0px 10px 10px;">
 
             <h1>Daniel Narvaez</h1>
-
+        
             <div class="menu" role="navigation" aria-label="main menu">
-    
+        
                 <a href="/index.html">Games</a>
                 <a href="/art.html">Art</a>
                 <a href="/about.html">About</a>
                 <a href="/resume.html">Resume</a>
-
+        
             </div>
-
-        </header>
-
-        <div class="centerColumn">
-
-            <section class="project-box" onclick="ToggleProjectInfo(this)">
-            
+        
+            </header>
+        
+            <div class="centerColumn">
+        
+            <section class="project-box">
+        
                 <h2 class="round-box abs-heading">Clock Out!!</h2>
 
-                <picture>
-    
-                    <source media="(min-width:1280px)"
-                            srcset="images/clock/Clock1920x480.jpg 1920w,
-                                    images/clock/Clock2560x640.jpg 2560w" >
-                    <source srcset="images/clock/Clock960x240.jpg 960w" >
-                    <img class="round-box" src="images/clock/Clock960x240.jpg" alt="Clock Out!!">
-    
-                </picture>
-            
+                <img class="round-box" 
+                     src="images/clock/Clock480x120.jpg" 
+                     alt="Clock Out!!"
+                     srcset="images/clock/Clock480x120.jpg 480w,
+                     images/clock/Clock960x240.jpg 960w,
+                     images/clock/Clock1440x360.jpg 1440w,
+                     images/clock/Clock1920x480.jpg 1920w,
+                     images/clock/Clock2560x640.jpg 2560w"
+                     sizes="(max-width: 640px) 480px,
+                     (max-width: 1920px) 960px, 1440px,
+                     (min-width: 1921px) 1920px, 2560px"
+                >
+        
             </section>
-
+        
             <section class="round-box collapsible-box">
-
+        
                 <p class="desc-project">Fight your bosses (literally) as an unpaid intern in Clock Out!!, an arcade-style fighting game. Wreck chaos, climb the corporate ladder, and fight the system! Square up against unique bosses from different departments, from catty coworkers to slothful supervisors. Upgrade your resume and improve your skills as you climb up. Liquidate the company and bosses as you take down the higher-ups one by one!
                 </p>
-    
+        
                 <nav class="nav-project">
-    
+        
                     <a class="flex-item" href="gamesProjects/game1.html">Read More</a>
                     <a class="flex-item" target="_blank" href="https://danielnarvaezart.itch.io/clockout">Website</a>
-    
+        
                 </nav>
-
+        
             </section>
-
-            <section class="project-box" onclick="ToggleProjectInfo(this)">
-            
+        
+            <section class="project-box">
+        
                 <h2 class="round-box abs-heading">The Hex Perplex</h2>
-
-                <picture>
-    
-                    <source media="(min-width:1280px)"
-                            srcset="images/hex/Hex1920x480.jpg 1920w,
-                                    images/hex/Hex2560x640.jpg 2560w">
-                    <source srcset="images/hex/Hex960x240.jpg 960w">
-                    <img class="round-box" src="images/hex/Hex960x240.jpg" alt="The Hex Perplex">
-    
-                </picture>
-            
+        
+                <img class="round-box" 
+                     src="images/hex/Hex480x120.jpg" 
+                     alt="The Hex Perplex"
+                     srcset="images/hex/Hex480x120.jpg 480w,
+                     images/hex/Hex960x240.jpg 960w,
+                     images/hex/Hex1440x360.jpg 1440w,
+                     images/hex/Hex1920x480.jpg 1920w,
+                     images/hex/Hex2560x640.jpg 2560w"
+                     sizes="(max-width: 640px) 480px,
+                     (max-width: 1920px) 960px, 1440px,
+                     (min-width: 1921px) 1920px, 2560px"
+                >
+        
             </section>
-
+        
             <section class="round-box collapsible-box" id="projectInfo_0">
-
+        
                 <p class="desc-project">Welcome to the Hex Perplex! Can you defeat the unstoppable power that lurks among these walls? Master the power of the spell books and vanquish the curse that holds the castle! Use them to fight enemies and alter your terrain! It will surely be a difficult journey!</p>
-
+        
                 <nav class="nav-project">
-
+        
                     <a class="flex-item" href="gamesProjects/game0.html">Read More</a>
                     <a class="flex-item" target="_blank" href="https://danielnarvaezart.itch.io/hexperplex">Website</a>
-
+        
                 </nav>
-
+        
             </section>
-
+        
             <div class="round-box">
-
+        
                 <div class="switch">
-
+        
                     <p class="settings">Dark</p>
-
+        
                     <input type="checkbox" id="theme-switch"><label class="switch-bg" for="theme-switch">
                     </label>
-    
+        
                     <p class="settings">Light</p>
-
+        
                 </div>
-    
+        
             </div>
-
-        </div>
-
-        <footer>
-
+        
+            </div>
+        
+            <footer>
+        
             <p class="copyright">&copy; Daniel Narvaez. All content and trademarks property of their respective owners.</p>
-
-        </footer>
-
+        
+            </footer>
     </body>
 
 </html>
