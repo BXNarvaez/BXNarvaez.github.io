@@ -43,12 +43,11 @@ header,
   color: var(--themeText);
 }
 
-.menu a,
-.nav-project a {
+.link {
   color: var(--themeLink);
 }
 
-a:hover {
+.link:hover {
   color: var(--themeHover);
   transition: color 0.3s ease;
 }
