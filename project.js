@@ -2,7 +2,7 @@ class GameProject {
     constructor (
         //Defining the parameters
         name, 
-        images,
+        bannerImages,
         summary,
         externalLink,
         internalLink
@@ -13,7 +13,7 @@ class GameProject {
         this.name = name;
 
         //An array of the srcset images for the games page
-        this.images = images;
+        this.bannerImages = bannerImages;
 
         //Short summary about the entire project. Acts as a hook for the viewer.
         this.summary = summary;
