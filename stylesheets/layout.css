@@ -81,7 +81,7 @@ header {
   flex-direction: row;
 }
 
-.menu a {
+.menu .link {
   margin: 5px auto;
   width: auto;
 }
