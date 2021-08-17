@@ -15,7 +15,7 @@ const ChangeThemeToDark = function() {
 
 const CheckTheme = function() {
   const localStorageTheme = localStorage.getItem('data-theme');
-  if (localStorageTheme !== null && localStorageTheme === 'dark') {
+  if (localStorageTheme !== null && localStorageTheme === "dark") {
     ChangeThemeToDark();
     themeSwitch.checked = true;
   }
