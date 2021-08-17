@@ -7,7 +7,7 @@ const gameContent = gamesData.map((game) => {
     gameArticle.style.backgroundColor = "transparent";
 
     gameArticle.innerHTML = `
-        <section class="project-box">
+        <section class="project-banner">
 
             <h2 class="round-box abs-heading">${game.name}</h2>
 

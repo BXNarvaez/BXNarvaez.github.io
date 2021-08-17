@@ -35,6 +35,7 @@ const clockOutGame = new GameProject (
 
 );
 
+// The array with all of the project information. This gets exported to scripts/mapgamesdata.js to be reiterated into the html.
 const gamesData = [hexPerplexGame, clockOutGame]
 
 export default gamesData;

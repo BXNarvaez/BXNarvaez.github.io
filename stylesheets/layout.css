@@ -28,6 +28,7 @@ h2,
   display: block;
 }
 
+/* This gives every box with it round borders for a bubble-esque aesthetic. */
 .round-box {
   padding: 0px;
   margin: 5px auto;
@@ -36,6 +37,13 @@ h2,
   overflow: hidden;
 }
 
+/* The image banner of the project. Contains the toggle functionality for collapsible-box and active-box. This can be found in scripts/eventfunctions.js. */
+.project-banner {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Module to active-box. When an element has this class but not active box, it is essentially hidden from view. */
 .collapsible-box {
   max-height: 0px;
   margin: -2.5px auto;
@@ -43,11 +51,13 @@ h2,
     margin 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+/* Module to collapsible-box. When a project banner is clicked on, this class is toggled to reveal what is hidden by collapsible-box */
 .active-box {
   max-height: 400px;
   margin: 5px auto;
 }
 
+/* Absolute headings are for the headings in the upper left corner of a project banner */
 .abs-heading {
   margin: 5px;
   position: absolute;
@@ -56,11 +66,6 @@ h2,
   max-height: 80px;
 }
 
-.project-box {
-  position: relative;
-  cursor: pointer;
-}
-/* style="height: 0px; margin: -5px auto 0px;" */
 
 /* Header
 ------------------------------------------------------------ */

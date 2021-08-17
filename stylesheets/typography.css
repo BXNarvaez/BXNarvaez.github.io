@@ -4,14 +4,17 @@ body {
   line-height: 1.5;
 }
 
+/* bold */
 b {
   font-family: "PMNCaeciliaSans Text Bd";
 }
 
+/* italic */
 i {
   font-family: "PMNCaeciliaSans Text Lt Italic";
 }
 
+/* bold italic */
 .bi {
   font-family: "PMNCaeciliaSans Text Bd Italic";
 }
@@ -39,7 +42,7 @@ ul {
   text-align: left;
 }
 
-a {
+.link {
   font-family: "PMNCaeciliaSans Text Hv";
   font-size: 1rem;
   text-decoration: none;
@@ -49,7 +52,7 @@ a {
 /* Header
 ------------------------------------------------------------ */
 
-.menu a {
+.menu .link {
   font-size: 1rem;
 }
 
@@ -92,7 +95,7 @@ ul.box {
     font-size: 1.66rem;
   }
 
-  .menu a {
+  .menu .link {
     font-size: 1.33rem;
   }
 
@@ -123,7 +126,7 @@ ul.box {
     font-size: 2.0811rem;
   }
 
-  .menu a {
+  .menu .link {
     font-size: 1.66rem;
   }
 
