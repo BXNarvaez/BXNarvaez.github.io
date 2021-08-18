@@ -2,6 +2,7 @@ import gamesData from "./gameprojectdata.js";
 
 const gameContent = gamesData.map((game) => {
 
+    // The article wraps both the project-banner and collapsible-box elements into one for an easier prepend. Because of this, the game ID goes on the outer article.
     let gameArticle = document.createElement('article');
     gameArticle.setAttribute("id", game.id)
     gameArticle.style.backgroundColor = "transparent";
