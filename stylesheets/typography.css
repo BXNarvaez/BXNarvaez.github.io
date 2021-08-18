@@ -102,7 +102,12 @@ ul.box {
   .desc-project,
   .settings,
   ul {
+    font-family: "PMNCaeciliaSans Text Regular";
     font-size: 1rem;
+  }
+
+  i {
+    font-family: "PMNCaeciliaSans Text Italic";
   }
 
   .box,
@@ -133,6 +138,7 @@ ul.box {
   .desc-project,
   .settings,
   ul {
+    
     font-size: 1.25rem;
   }
 
