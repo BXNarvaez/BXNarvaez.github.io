@@ -1,4 +1,4 @@
-class GameProject {
+class ProjectClass {
     constructor (
         //Defining the parameters
         name, 
@@ -30,7 +30,7 @@ class GameProject {
     }
 }
 
-export default GameProject;
+export default ProjectClass;
 
         // role,
         // team,

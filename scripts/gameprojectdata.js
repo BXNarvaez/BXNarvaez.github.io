@@ -1,9 +1,9 @@
-//constructor (name, images, summary, externalLink, internalLink)
-import GameProject from "./project.js";
+//constructor (name, images, summary, externalLink, internalLink, id)
+import ProjectClass from "./project.js";
 
 //List projects with the oldest being at the top/front of the array, and the most recent at the bottom/end of the array. This is because they must be prepended to the HTML in that order.
 
-const hexPerplexGame = new GameProject (
+const hexPerplexGame = new ProjectClass (
 
     "The Hex Perplex",
 
@@ -19,7 +19,7 @@ const hexPerplexGame = new GameProject (
 
 );
 
-const clockOutGame = new GameProject (
+const clockOutGame = new ProjectClass (
 
     "Clock Out!!",
 
