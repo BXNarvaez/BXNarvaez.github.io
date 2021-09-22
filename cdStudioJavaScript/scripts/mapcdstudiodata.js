@@ -33,7 +33,7 @@ const projectContent = cdstudioData.map((project) => {
 
             <nav class="nav-project">
 
-                <a class="flex-item link" href=${project.readMore}>Read More</a>
+                <a class="flex-item link" href=${project.readMore}>Project Page</a>
 
             </nav>
 

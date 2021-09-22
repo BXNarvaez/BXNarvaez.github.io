@@ -8,7 +8,7 @@
         <meta name="application-name" content="Games | Daniel Narvaez">
         <meta name="msapplication-TileImage" content="">
     
-        <title>CD Studio | Daniel Narvaez</title>
+        <title>Magic 8 Ball | Daniel Narvaez</title>
     
         <meta name="description" content="Visual art, video games, and other works by Daniel Narvaez.">
     
@@ -17,11 +17,10 @@
         <link rel="stylesheet" href="/stylesheets/layout.css" aria-label="layout stylesheet">
         <link rel="stylesheet" href="/stylesheets/icons.css" aria-label="icons stylesheet">
         <link rel="stylesheet" href="/stylesheets/color.css" aria-label="color stylesheet">
+    
+        <script src="../../scripts/eventfunctions.js" defer></script>
+        <script src="../scripts/magic8ball.js" defer></script>
         
-        <script type="module" src="scripts/project.js" defer></script>
-        <script type="module" src="scripts/cdstudioScripts/cdstudiodata.js" defer></script>
-        <script type="module" src="scripts/cdstudioScripts/mapcdstudiodata.js"></script>
-        <script src="scripts/eventfunctions.js" defer></script>
     
     </head>
 
@@ -48,7 +47,7 @@
 
             <div class="menu" aria-label="class projects menu">
 
-                <a class="link" style="color: var(--themeHover);" href="/CDStudio.html">CD Studio: JavaScript</a>
+                <a class="link" href="../CDStudio.html">CD Studio: JavaScript</a>
 
             </div>
 
@@ -56,9 +55,17 @@
 
         <div class="centerColumn">
 
-            <!-- Project Content is prepended here from scripts/mapgamedata.js -->
+            <section class="round-box" id="display">
 
-            <!-- ------------------------------------------------------------ -->
+
+
+                <nav class="menu">
+
+                    <a class="flex-item link" href="cdstudio0_results.html">"What we eatin' tomorrow?"</a>
+    
+                </nav>
+
+            </section>
             
             <div class="round-box">
 
