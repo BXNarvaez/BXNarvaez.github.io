@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US" dir="ltr" data-theme="">
+<html lang="en-US" dir="ltr" data-theme="" results="">
 
     <head>
 
@@ -17,8 +17,11 @@
         <link rel="stylesheet" href="/stylesheets/layout.css" aria-label="layout stylesheet">
         <link rel="stylesheet" href="/stylesheets/icons.css" aria-label="icons stylesheet">
         <link rel="stylesheet" href="/stylesheets/color.css" aria-label="color stylesheet">
+
+        <link rel="stylesheet" href="../stylesheets/magic8ball.css" aria-label="Magic 8 Ball stylesheet">
     
         <script src="../../scripts/eventfunctions.js" defer></script>
+        <script src="../scripts/magic8ball.js" defer></script>
         
     
     </head>
@@ -59,11 +62,35 @@
             <!-- ------------------------------------------------------------ -->
             <section class="round-box">
 
-                <p class="desc-project" style="text-align: center;">"Whatchu' tryna eat for breakfast?"</p>
+                <p class="desc-project" style="text-align: center;">"What should I eat for breakfast today?"</p>
+
+                <label for="q1" class="desc-project">1. How much sleep did you get last night?</label>
+
+                <select class="selection-box" name="Question 1" id="q1">
+                    <option value="0">No sleep at all</option>
+                    <option value="1">Less than 6 hours</option>
+                    <option value="2">Between 6 and 9 hours</option>
+                    <option value="3">More than 9 hours</option>
+                </select>
+
+                <label for="q2" class="desc-project">2. What's the first thing you do after waking up?</label>
+
+                <select class="selection-box" name="Question 2" id="q2">
+                    <option value="0">I check my phone in bed for a little while.</option>
+                    <option value="1">I get up to use the bathroom.</option>
+                    <option value="2">I get out of bed and make breakfast.</option>
+                </select>
+
+                <label for="q3" class="desc-project">3. Are you in a rush to be somewhere right now?</label>
+
+                <select class="selection-box" name="Question 3" id="q3">
+                    <option value="0">Yes</option>
+                    <option value="1">No</option>
+                </select>
 
                 <nav class="menu">
 
-                    <a class="flex-item link" href="cdstudio0_results.html">Find Out</a>
+                    <a class="flex-item link" id="submit" href="cdstudio0_results.html">Submit</a>
     
                 </nav>
 
