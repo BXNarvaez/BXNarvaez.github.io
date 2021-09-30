@@ -81,17 +81,6 @@ const DisplayResult = function() {
     }
 }
 
-//Create an ARRAY of possible responses. Separate each 'string' with a comma.
-var responses = [
-    'A Sausage Egg & Cheese on a bagel.',
-    'A Butter Roll.',
-    'A Ham, Egg & Cheese on a roll with salt, pepper, and ketchup.',
-    'A Grilled Cheese with pepper.',
-    '2 Eggs, scrambled, with salt, pepper and Home Fries on the side.',
-    'A Veggie Omelette with red & green peppers, onions, salt, and pepper.',
-    'Nothing. Have nothing today.'
-]
-
 const submitButton = document.querySelector('#submit');
 
 if(submitButton !== null)

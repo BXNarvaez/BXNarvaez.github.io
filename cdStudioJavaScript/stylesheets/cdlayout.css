@@ -1,0 +1,39 @@
+header {
+  width: 320px;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+/* This gives every box with it round borders for a bubble-esque aesthetic. */
+.round-box {
+  padding: 0px;
+  margin: 5px auto;
+  border: 0px solid none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu .link {
+  margin: 5px auto;
+  width: auto;
+}
+
+@media only screen and (orientation: landscape),
+  only screen and (min-width: 641px) {
+  header {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    max-width: 25%;
+    border-radius: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+}
