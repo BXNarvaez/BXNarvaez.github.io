@@ -7,9 +7,9 @@ const Magic8BallProject = new ProjectClass (
 
     "Project 1: Magic 8 Ball",
 
-    ["./images/magic8ball/magic8ball480x120.jpg", "./images/magic8ball/magic8ball960x240.jpg", "./images/magic8ball/magic8ball1440x360.jpg", "./images/magic8ball/magic8ball1920x480.jpg", "./images//magic8ball/magic8ball2560x640.jpg"],
+    ["./images/magic8ball/magic8ball1440x360.jpg", "./images/magic8ball/magic8ball1920x480.jpg", "./images//magic8ball/magic8ball2560x640.jpg"],
 
-    "The Magic 8-Ball is a plastic sphere, made to look like an eight-ball, that is used for fortune-telling or seeking advice. It was invented in 1950 by Albert C. Carter and Abe Bookman and is currently manufactured by Mattel. The user asks a yes–no question to the ball, then turns it over to reveal an answer in a window on the ball. We will use HTML, CSS, and JavaScript to recreate this real world object as a functional website.",
+    null,
 
     null,
 
@@ -19,7 +19,23 @@ const Magic8BallProject = new ProjectClass (
 
 )
 
+const PrinterProject = new ProjectClass (
+
+    "Project 2: Printer",
+
+    ["./images/printer/printer1440x360.jpg", "./images/printer/printer1920x480.jpg", "./images/printer/printer2560x640.jpg"],
+
+    null,
+
+    null,
+
+    "./projects/cdstudio1.html",
+
+    "Project_1"
+
+)
+
 // The array with all of the project information. This gets exported to scripts/mapcdstudiodata.js to be reiterated into the html.
-const cdstudioData = [Magic8BallProject]
+const cdstudioData = [Magic8BallProject, PrinterProject]
 
 export default cdstudioData;

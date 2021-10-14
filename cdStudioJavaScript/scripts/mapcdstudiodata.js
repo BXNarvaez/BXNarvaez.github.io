@@ -8,34 +8,23 @@ const projectContent = cdstudioData.map((project) => {
     projectArticle.style.backgroundColor = "transparent";
 
     projectArticle.innerHTML = `
-        <section class="project-banner">
+        <section class="project-banner" href=${project.readMore}>
 
             <h2 class="round-box abs-heading">${project.name}</h2>
 
-            <img class="round-box" 
-            src=${project.bannerImages[0]} 
-            alt="Banner image of ${project.name}"
-            srcset="${project.bannerImages[0]} 480w,
-            ${project.bannerImages[1]} 960w,
-            ${project.bannerImages[2]} 1440w,
-            ${project.bannerImages[3]} 1920w,
-            ${project.bannerImages[4]} 2560w"
-            sizes="(max-width: 640px) 480px,
-            (max-width: 1920px) 960px, 1440px,
-            (min-width: 1921px) 1920px, 2560px"
-            >
+            <a href=${project.readMore}>
 
-        </section>
-
-        <section class="round-box collapsible-box">
-
-            <p class="desc-project">${project.summary}</p>
-
-            <nav class="nav-project">
-
-                <a class="flex-item link" href=${project.readMore}>Project Page</a>
-
-            </nav>
+                <img class="round-box" 
+                src=${project.bannerImages[0]} 
+                alt="Banner image of ${project.name}"
+                srcset="${project.bannerImages[0]} 1440w,
+                ${project.bannerImages[1]} 1920w,
+                ${project.bannerImages[2]} 2560w"
+                sizes="(max-width: 1920px) 960px, 1440px,
+                (min-width: 1921px) 1920px, 2560px"
+                >
+            
+            </a>
 
         </section>
     `;

@@ -1,0 +1,142 @@
+/* LAYOUT -------------------------------------------------------------------------*/
+header {
+  width: 320px;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+/* This gives every box with it round borders for a bubble-esque aesthetic. */
+.round-box {
+  padding: 0px;
+  margin: 5px auto;
+  border: 0px solid none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu .link {
+  margin: 5px auto;
+  width: auto;
+}
+
+h1 {
+  margin: 5px 0px;
+  display: block;
+}
+
+h2,
+.desc-project {
+  padding: 5px 20px;
+  display: block;
+}
+
+.abs-heading {
+  margin: 5px;
+  position: absolute;
+  padding: 0px 5px;
+  z-index: 3;
+  max-height: 80px;
+}
+
+@media only screen and (orientation: landscape),
+  only screen and (min-width: 641px) {
+  header {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    max-width: 15%;
+    border-radius: 10px;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+}
+
+/* TYPOGRAPHY -------------------------------------------------------------------------*/
+
+h1 {
+  font-family: "Tinos Regular";
+  font-size: 1.75rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.link {
+  font-family: "PMNCaeciliaSans Text Hv";
+  font-size: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.desc-project,
+.settings {
+  font-family: "PMNCaeciliaSans Text Lt";
+  font-size: 0.75rem;
+  text-decoration: none;
+  text-align: left;
+}
+
+@media only screen and (orientation: landscape),
+  only screen and (min-width: 641px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .link {
+    font-size: 0.75rem;
+  }
+}
+
+/* ICONS -------------------------------------------------------------------------*/
+
+.switch {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  height: auto;
+  margin: 5px auto;
+}
+
+.switch * {
+  margin: 5px;
+  padding: 0px;
+  display: block;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+
+/* Capsule Background */
+.switch-bg {
+  cursor: pointer;
+  width: 2.25rem;
+  height: 1.125rem;
+  display: block;
+  border-radius: 1.125rem;
+  position: relative;
+  text-overflow: unset;
+}
+
+/* Circle within the capsule */
+.switch-bg:after {
+  content: "";
+  position: absolute;
+  inset: 0.0625rem 0rem 0rem 0.0625rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+input:checked + .switch-bg:after {
+  left: calc(100% - 0.0625rem);
+  transform: translateX(-100%);
+}
