@@ -1,3 +1,7 @@
 body {
   background-color: #ffa6aa;
 }
+
+.canvas {
+  position: fixed;
+}
