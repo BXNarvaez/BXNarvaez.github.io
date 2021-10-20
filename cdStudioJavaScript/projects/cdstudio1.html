@@ -19,10 +19,11 @@
         <link rel="stylesheet" href="../stylesheets/printer.css" aria-label="Printer Stylesheet">
 
         <script src="../../scripts/eventfunctions.js" defer></script>
+        <script src="../scripts/printer.js" defer></script>
 
     </head>
 
-    <body>
+    <body id="body">
         
         <header class="round-box">
             
@@ -48,9 +49,9 @@
         
         </header>
 
-        <canvas>
-            
-        </canvas>
+        <div id="canvas-center-div">
+            <canvas id="canvas" width="700" height="700"></canvas>
+        </div>
 
     </body>
 
