@@ -35,7 +35,39 @@ const PrinterProject = new ProjectClass (
 
 )
 
+const TimeProject = new ProjectClass (
+
+    "Project 3: Clock",
+
+    ["./images/time/time1440x360.jpg", "./images/time/time1920x480.jpg", "./images/time/time2560x640.jpg"],
+
+    null,
+
+    null,
+
+    "./projects/cdstudio2.html",
+
+    "Project_2"
+
+)
+
+const MediaProject = new ProjectClass (
+
+    "Project 4: Media Player",
+
+    ["./images/media/media1440x360.jpg", "./images/media/media1920x480.jpg", "./images/media/media2560x640.jpg"],
+
+    null,
+
+    null,
+
+    "./projects/cdstudio3.html",
+
+    "Project_3"
+
+)
+
 // The array with all of the project information. This gets exported to scripts/mapcdstudiodata.js to be reiterated into the html.
-const cdstudioData = [Magic8BallProject, PrinterProject]
+const cdstudioData = [Magic8BallProject, PrinterProject, TimeProject, MediaProject]
 
 export default cdstudioData;
