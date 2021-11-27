@@ -24,11 +24,22 @@ const Pelham = new Soundscape (
     
 )
 
+const Fordham = new Soundscape (
+
+    "Fordham Road",
+
+    "soundscape_1",
+
+    '../mediaVideos/fordham.MP4',
+
+    '../mediaAudio/fordham.WAV'
+)
+
 const Lincoln = new Soundscape (
 
     "Lincoln Center",
 
-    "soundscape_1",
+    "soundscape_2",
 
     '../mediaVideos/lincoln.MP4',
     
@@ -40,7 +51,7 @@ const High = new Soundscape (
 
     "The High Line",
 
-    "soundscape_2",
+    "soundscape_3",
 
     '../mediaVideos/high.MP4',
     
@@ -52,7 +63,7 @@ const River = new Soundscape (
 
     "East River Park",
 
-    "soundscape_3",
+    "soundscape_4",
 
     '../mediaVideos/river.MP4',
     
@@ -60,6 +71,6 @@ const River = new Soundscape (
 
 )
 
-const soundscapeData = [Pelham, Lincoln, High, River]
+const soundscapeData = [Pelham, Fordham, Lincoln, High, River]
 
 export default soundscapeData;
