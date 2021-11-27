@@ -17,15 +17,15 @@
         <link rel="stylesheet" href="/stylesheets/color.css" aria-label="color stylesheet">
         <link rel="stylesheet" href="../stylesheets/CDJavaScriptOverride.css" aria-label="CD Overrides stylesheet">
         <link rel="stylesheet" href="../stylesheets/media.css" aria-label="media stylesheet">
-
-        <script src="../../scripts/eventfunctions.js" defer></script>
-        <script src="../scripts/media.js" defer></script>
+        
+        <script src="../scripts/soundscapedata.js" type="module" defer></script>
+        <script src="../scripts/mediaplayerfunctions.js" type="module" defer></script>
 
     </head>
 
     <body>
         
-        <header class="round-box">
+        <header class="round-box" id="media-menu">
             
             <!-- Change this title for every project page -->
             <h1>Project 4: Media Player</h1>
@@ -36,18 +36,31 @@
         
             </div>
 
-            <div class="switch">
-        
-                <p class="settings">Dark</p>
-    
-                <input type="checkbox" id="theme-switch"><label class="switch-bg" for="theme-switch">
-                </label>
-    
-                <p class="settings">Light</p>
-    
+            <div class="media-player">
+                <input id="prev" class="media-player-icon" type="image" src="../images/icons/prev.png">
+                <input id="pause-play" class="media-player-icon" type="image" src="../images/icons/pause.png">
+                <input id="next" class="media-player-icon" type="image" src="../images/icons/next.png">
             </div>
+
+           <div class="media-player">
+                <img src="../images/icons/minVolume.png" class="slider-img" alt="Min">
+                <div class="slider-container">
+                    <input id="volume-slider" type="range" class="slider" min="0" max="1" step="0.01">
+                </div>
+                <img src="../images/icons/maxVolume.png" class="slider-img" alt="Max">
+           </div>
         
         </header>
+
+        <section id="slideshow-container">
+
+
+        </section>
+
+        <!-- <div class="video-container">
+            <video id="video_0" src="../mediaVideos/pelham.MP4" autoplay loop muted></video>
+            <audio id="audio_0" src="../mediaAudio/pelham.WAV" autoplay loop></audio>
+        </div> -->
 
     </body>
 
