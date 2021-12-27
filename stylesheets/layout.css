@@ -4,7 +4,7 @@ header,
 .centerColumn,
 footer {
   width: 320px;
-  max-width: 85%;
+  max-width: 95%;
   margin: 0 auto;
 }
 
@@ -14,12 +14,8 @@ ul {
 }
 
 h1 {
-  margin: 5px 0px;
+  /* margin: 5px 0px 0px 0px; */
   display: block;
-}
-
-.project-title {
-  text-align: center;
 }
 
 h2,
@@ -43,29 +39,37 @@ h2,
   cursor: pointer;
 }
 
+div.description-wrap {
+  height: 136px;
+}
+
 /* Module to active-box. When an element has this class but not active box, it is essentially hidden from view. */
 .collapsible-box {
-  max-height: 0px;
+  height: 0px;
   margin: -2.5px auto;
-  transition: max-height 0.6s cubic-bezier(0.22, 1, 0.36, 1),
-    margin 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 /* Module to collapsible-box. When a project banner is clicked on, this class is toggled to reveal what is hidden by collapsible-box */
 .active-box {
-  max-height: 400px;
+  height: 160px;
   margin: 5px auto;
 }
 
 /* Absolute headings are for the headings in the upper left corner of a project banner */
-.abs-heading {
+.project-title {
+  opacity: 0%;
   margin: 5px;
   position: absolute;
   padding: 0px 5px;
   z-index: 3;
   max-height: 80px;
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
+.active-title {
+  opacity: 100%;
+}
 
 /* Header
 ------------------------------------------------------------ */
@@ -82,7 +86,7 @@ header {
 }
 
 .menu .link {
-  margin: 5px auto;
+  margin: 0px auto;
   width: auto;
 }
 
@@ -91,12 +95,12 @@ header {
 
 .nav-project {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
-.nav-project a {
-  padding: 5px 20px;
-  display: block;
+.link {
+  margin: 0px auto;
+  width: auto;
 }
 
 .lined-heading {
@@ -191,6 +195,14 @@ img {
   .dynamic-flex {
     flex-direction: row;
   }
+
+  div.description-wrap {
+    height: 136px;
+  }
+
+  .active-box {
+    height: 160px;
+  }
 }
 
 @media only screen and (min-width: 1921px) {
@@ -198,5 +210,13 @@ img {
   .centerColumn,
   footer {
     width: 25%;
+  }
+
+  div.description-wrap {
+    height: 160px;
+  }
+
+  .active-box {
+    height: 184px;
   }
 }

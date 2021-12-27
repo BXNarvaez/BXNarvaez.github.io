@@ -38,9 +38,27 @@ themeSwitch.addEventListener('change', () => {
 
 // The array collected by projectBanners is then given toggle functionality for activating and collapsing a project's info panel
 projectBanners.forEach(panel => {
+  let projectInfo = panel.nextElementSibling;
+  let projectTitle = panel.firstElementChild;
+
   panel.addEventListener('click', function() {
-    let projectInfo = this.nextElementSibling;
     projectInfo.classList.toggle('active-box');
+  }) 
+  panel.addEventListener('mouseover', function() {
+
+    if(!projectInfo.classList.contains('active-box'))
+    {
+      projectTitle.classList.toggle('active-title');
+    }
+    
+  })
+  panel.addEventListener('mouseout', function() {
+
+    if(!projectInfo.classList.contains('active-box'))
+    {
+      projectTitle.classList.toggle('active-title');
+    }
+
   })
 })
 

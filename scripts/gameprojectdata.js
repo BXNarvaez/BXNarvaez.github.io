@@ -25,7 +25,7 @@ const clockOutGame = new GameProject (
 
     ['./images/clock/Clock480x120.jpg','./images/clock/Clock960x240.jpg','./images/clock/Clock1440x360.jpg','./images/clock/Clock1920x480.jpg','./images/clock/Clock2560x640.jpg'],
     
-    "An arcade-style fighter about an unpaid intern fighting their bosses. Released for iOS and Android. Made with Team Crème at MassDigi SIP 2021. I was the team's designer, and worked in both Machinations.io and Unity.",
+    "An arcade-style fighter about an unpaid intern fighting their bosses. Released for iOS and Android. Made with Team Crème at MassDigi SIP 2021. I was the team's designer, and worked in both Machinations and Unity.",
 
     "https://danielnarvaezart.itch.io/clockout",
 

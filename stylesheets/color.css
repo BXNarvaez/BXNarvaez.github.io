@@ -16,6 +16,9 @@
 
   --lilac: #dc9ba3;
   --celeste: #b2ffff;
+
+  --light: white;
+  --dark: black;
 }
 
 html {
@@ -75,6 +78,10 @@ hr {
 /* Circle within the capsule */
 .switch-bg:after {
   background: var(--themeLink);
+}
+
+.switch-bg:after :hover {
+  background: var(--themeHover);
 }
 
 input:checked + .switch-bg {

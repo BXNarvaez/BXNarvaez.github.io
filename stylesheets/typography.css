@@ -6,7 +6,7 @@ body {
 
 /* bold */
 b {
-  font-family: "PMNCaeciliaSans Text Bd";
+  font-family: "Avenir Next Lt Pro Bold";
 }
 
 /* italic */
@@ -20,15 +20,15 @@ i {
 }
 
 h1 {
-  font-family: "Tinos Regular";
-  font-size: 1.75rem;
+  font-family: "Avenir Next Lt Pro Regular";
+  font-size: 1.5rem;
   text-decoration: none;
   text-align: center;
 }
 
 h2 {
-  font-family: "Tinos Regular";
-  font-size: 1.25rem;
+  font-family: "Avenir Next Lt Pro Regular";
+  font-size: 1rem;
   text-decoration: none;
   text-align: left;
 }
@@ -43,10 +43,13 @@ ul {
 }
 
 .link {
-  font-family: "PMNCaeciliaSans Text Hv";
+  font-family: "Avenir Next Lt Pro Regular";
   font-size: 1rem;
   text-decoration: none;
   text-align: center;
+
+  transition: all 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+    margin 0.6s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 /* Header
@@ -138,7 +141,6 @@ ul.box {
   .desc-project,
   .settings,
   ul {
-    
     font-size: 1.25rem;
   }
 
@@ -150,33 +152,6 @@ ul.box {
   footer {
     font-size: 0.833rem;
   }
-}
-
-/* Bodoni Moda Font Family
------------------------------------------------------------- */
-
-@font-face {
-  font-family: "Bodoni Moda Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Bodoni Moda Regular"),
-    url("fonts/BodoniModa/BodoniModa_18pt-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Bodoni Moda Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Bodoni Moda Bold"),
-    url("fonts/BodoniModa/BodoniModa_18pt-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Bodoni Moda Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Bodoni Moda Italic"),
-    url("fonts/BodoniModa/BodoniModa_18pt-Italic.ttf") format("truetype");
 }
 
 /* Tinos Font Family
@@ -301,4 +276,30 @@ ul.box {
   src: local("PMNCaeciliaSans Text Hv Italic"),
     url("/fonts/PMNCaeciliaSansText/PMNCaeciliaSansTextHvIt.woff")
       format("woff");
+}
+
+/* Avenir Next Font Family
+------------------------------------------------------------ */
+@font-face {
+  font-family: "Avenir Next Lt Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next Lt Pro Regular"),
+    url("/fonts/AvenirNext/AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avenir Next Lt Pro Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next Lt Pro Bold"),
+    url("/fonts/AvenirNext/AvenirNextLTPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avenir Next Lt Pro Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir Next Lt Pro Italic"),
+    url("/fonts/AvenirNext/AvenirNextLTPro-It.otf") format("opentype");
 }

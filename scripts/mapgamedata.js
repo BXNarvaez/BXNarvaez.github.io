@@ -10,7 +10,7 @@ const gameContent = gamesData.map((game) => {
     gameArticle.innerHTML = `
         <section class="project-banner">
 
-            <h2 class="round-box abs-heading">${game.name}</h2>
+            <h2 class="round-box project-title">${game.name}</h2>
 
             <img class="round-box" 
             src=${game.bannerImages[0]} 
@@ -29,12 +29,16 @@ const gameContent = gamesData.map((game) => {
 
         <section class="round-box collapsible-box">
 
-            <p class="desc-project">${game.summary}</p>
+            <div class="description-wrap">
+
+                <p class="desc-project">${game.summary}</p>
+
+            </div>
 
             <nav class="nav-project">
 
-                <a class="flex-item link" href=${game.readMore}>Read More</a>
-                <a class="flex-item link" target="_blank" href=${game.website}>Website</a>
+                <a class="link" href=${game.readMore}>Read More</a>
+                <a class="link" target="_blank" href=${game.website}>Website</a>
 
             </nav>
 
