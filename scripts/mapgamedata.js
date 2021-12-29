@@ -8,11 +8,11 @@ const gameContent = gamesData.map((game) => {
     gameArticle.style.backgroundColor = "transparent";
 
     gameArticle.innerHTML = `
-        <section class="project-banner">
+        <section class="round-box project-banner">
 
             <h2 class="round-box project-title">${game.name}</h2>
 
-            <img class="round-box" 
+            <img  
             src=${game.bannerImages[0]} 
             alt="Banner image of ${game.name}"
             srcset="${game.bannerImages[0]} 480w,

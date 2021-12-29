@@ -13,7 +13,7 @@ const hexPerplexGame = new GameProject (
 
     "https://danielnarvaezart.itch.io/hexperplex",
 
-    "./gamesProjects/game0.html",
+    "./gamesProjects/hexPerplex.html",
 
     "Project_0"
 
@@ -29,7 +29,7 @@ const clockOutGame = new GameProject (
 
     "https://danielnarvaezart.itch.io/clockout",
 
-    "./gamesProjects/game1.html",
+    "./gamesProjects/clockOut.html",
 
     "Project_1"
 

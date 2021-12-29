@@ -16,22 +16,19 @@
 
   --lilac: #dc9ba3;
   --celeste: #b2ffff;
-
-  --light: white;
-  --dark: black;
 }
 
 html {
-  --themeBackground: var(--cream);
-  --themePanel: var(--lightGray);
+  --themeBackground: white;
+  --themePanel: white;
   --themeText: var(--charcoalGreen);
   --themeLink: var(--puertoRicoRed);
   --themeHover: var(--lilac);
 }
 
 html[data-theme="dark"] {
-  --themeBackground: var(--darkBlue);
-  --themePanel: var(--darkGray);
+  --themeBackground: black;
+  --themePanel: black;
   --themeText: var(--fadedViolet);
   --themeLink: var(--puertoRicoBlue);
   --themeHover: var(--celeste);
@@ -40,7 +37,11 @@ html[data-theme="dark"] {
 /* Styles
 ------------------------------------------------------------ */
 
-header,
+h1,
+h2,
+p {
+  color: var(--themeText);
+}
 .centerColumn * {
   background-color: var(--themePanel);
   color: var(--themeText);
@@ -48,11 +49,12 @@ header,
 
 .link {
   color: var(--themeLink);
+  transition: background-color 0.35s ease;
+  transition: color 0.35s ease;
 }
 
 .link:hover {
   color: var(--themeHover);
-  transition: color 0.25s ease;
 }
 
 body {
@@ -73,6 +75,7 @@ hr {
 /* Capsule Background */
 .switch-bg {
   background: var(--themeBackground);
+  border: 1px solid var(--themeText);
 }
 
 /* Circle within the capsule */
@@ -88,7 +91,30 @@ input:checked + .switch-bg {
   background: var(--themeBackground);
 }
 
-* {
-  transition: background-color 0.5s ease, border-color 0.5s ease,
-    color 0.5s ease;
+*,
+* * {
+  transition: background-color 0.35s ease, border-color 0.35s ease,
+    color 0.35s ease, border-color 0.35s ease;
+}
+
+.round-box {
+  border: 1px solid var(--themeText);
+}
+
+.project-banner,
+.video {
+  border: none;
+}
+
+.collapsible-box {
+  border: 0px solid;
+}
+
+.active-box {
+  border: 1px solid var(--themeText);
+}
+
+.project-title {
+  background: var(--themeBackground);
+  border: none;
 }
