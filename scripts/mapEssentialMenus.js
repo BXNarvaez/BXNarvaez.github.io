@@ -22,7 +22,7 @@ contactMenu.innerHTML = `
 
     <h2 style="text-align: center;">Let's connect.</h2>
 
-    <div class="nav-project">
+    <div class="menu">
 
         <a class="link" target="_blank" href="https://www.linkedin.com/in/danielnarvaezart/">LinkedIn</a>
         <a class="link" target="_blank" href="https://twitter.com/BXNarvaez">Twitter</a> 

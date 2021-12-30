@@ -92,16 +92,6 @@ header {
 /* Body
 ------------------------------------------------------------ */
 
-.nav-project {
-  display: flex;
-  flex-direction: row;
-}
-
-.link {
-  margin: 0px auto;
-  width: auto;
-}
-
 .lined-heading {
   padding: 5px 20px;
 }
@@ -201,7 +191,7 @@ img {
   }
 
   .active-box {
-    height: 160px;
+    height: 168px;
   }
 }
 
@@ -217,6 +207,6 @@ img {
   }
 
   .active-box {
-    height: 184px;
+    height: 200px;
   }
 }

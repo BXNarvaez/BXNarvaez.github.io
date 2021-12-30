@@ -35,7 +35,7 @@ const gameContent = gamesData.map((game) => {
 
             </div>
 
-            <nav class="nav-project">
+            <nav class="menu">
 
                 <a class="link" href=${game.readMore}>Read More</a>
                 <a class="link" target="_blank" href=${game.website}>Website</a>
