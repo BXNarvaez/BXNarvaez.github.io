@@ -6,7 +6,7 @@ body {
 
 /* bold */
 b {
-  font-family: "Avenir Next Lt Pro Bold";
+  font-family: "PMNCaeciliaSans Text Bd";
 }
 
 /* italic */
@@ -36,7 +36,7 @@ h2 {
 ul {
   list-style-type: disc;
   list-style-position: outside;
-  font-family: "PMNCaeciliaSans Text Lt";
+  font-family: "PMNCaeciliaSans Text Regular";
   font-size: 0.75rem;
   text-decoration: none;
   text-align: left;
@@ -58,7 +58,7 @@ ul {
 
 .desc-project,
 .settings {
-  font-family: "PMNCaeciliaSans Text Lt";
+  font-family: "PMNCaeciliaSans Text Regular";
   font-size: 0.75rem;
   text-decoration: none;
   text-align: left;
@@ -66,7 +66,7 @@ ul {
 
 .box,
 ul.box {
-  font-family: "PMNCaeciliaSans Text Lt";
+  font-family: "PMNCaeciliaSans Text Regular";
   font-size: 0.675rem;
   text-decoration: none;
 }
@@ -75,7 +75,7 @@ ul.box {
 ------------------------------------------------------------ */
 
 .copyright {
-  font-family: "PMNCaeciliaSans Text Lt";
+  font-family: "PMNCaeciliaSans Text Regular";
   font-size: 0.5rem;
   text-align: center;
 }
