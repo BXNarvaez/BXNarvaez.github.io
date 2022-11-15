@@ -3,7 +3,7 @@
 header,
 .centerColumn,
 footer {
-  width: 320px;
+  width: 400px;
   max-width: 95%;
   margin: 0 auto;
 }
@@ -58,18 +58,18 @@ div.description-wrap {
 
 /* Absolute headings are for the headings in the upper left corner of a project banner */
 .project-title {
-  opacity: 0%;
+  /* opacity: 0%; */
   margin: 5px;
   position: absolute;
   padding: 0px 5px;
   z-index: 3;
   max-height: 80px;
-  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  /* transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1); */
 }
 
-.active-title {
+/* .active-title {
   opacity: 100%;
-}
+} */
 
 /* Header
 ------------------------------------------------------------ */

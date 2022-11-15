@@ -17,12 +17,10 @@ const gameContent = gamesData.map((game) => {
             alt="Banner image of ${game.name}"
             srcset="${game.bannerImages[0]} 480w,
             ${game.bannerImages[1]} 960w,
-            ${game.bannerImages[2]} 1440w,
-            ${game.bannerImages[3]} 1920w,
-            ${game.bannerImages[4]} 2560w"
+            ${game.bannerImages[2]} 1920w"
             sizes="(max-width: 640px) 480px,
-            (max-width: 1920px) 960px, 1440px,
-            (min-width: 1921px) 1920px, 2560px"
+            (max-width: 1920px) 960px,
+            (min-width: 1921px) 1920px"
             >
 
         </section>
@@ -31,13 +29,12 @@ const gameContent = gamesData.map((game) => {
 
             <div class="description-wrap">
 
-                <p class="desc-project">${game.summary}</p>
+                <p class="desc-project">${game.summary} <a class="link" href=${game.readMore}>Read More</a></p>
 
             </div>
 
             <nav class="menu">
 
-                <a class="link" href=${game.readMore}>Read More</a>
                 <a class="link" target="_blank" href=${game.website}>Website</a>
 
             </nav>

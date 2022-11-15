@@ -6,17 +6,17 @@ body {
 
 /* bold */
 b {
-  font-family: "PMNCaeciliaSans Text Bd";
+  font-family: "Inter Tight Bold";
 }
 
 /* italic */
 i {
-  font-family: "PMNCaeciliaSans Text Lt Italic";
+  font-family: "Inter Tight Italic";
 }
 
 /* bold italic */
 .bi {
-  font-family: "PMNCaeciliaSans Text Bd Italic";
+  font-family: "Inter Tight Bold Italic";
 }
 
 h1 {
@@ -36,7 +36,7 @@ h2 {
 ul {
   list-style-type: disc;
   list-style-position: outside;
-  font-family: "PMNCaeciliaSans Text Regular";
+  font-family: "Inter Tight Regular";
   font-size: 0.75rem;
   text-decoration: none;
   text-align: left;
@@ -58,7 +58,7 @@ ul {
 
 .desc-project,
 .settings {
-  font-family: "PMNCaeciliaSans Text Regular";
+  font-family: "Inter Tight Regular";
   font-size: 0.75rem;
   text-decoration: none;
   text-align: left;
@@ -66,7 +66,7 @@ ul {
 
 .box,
 ul.box {
-  font-family: "PMNCaeciliaSans Text Regular";
+  font-family: "Inter Tight Regular";
   font-size: 0.675rem;
   text-decoration: none;
 }
@@ -75,7 +75,7 @@ ul.box {
 ------------------------------------------------------------ */
 
 .copyright {
-  font-family: "PMNCaeciliaSans Text Regular";
+  font-family: "Inter Tight Regular";
   font-size: 0.5rem;
   text-align: center;
 }
@@ -102,12 +102,12 @@ ul.box {
   .desc-project,
   .settings,
   ul {
-    font-family: "PMNCaeciliaSans Text Regular";
+    font-family: "Inter Tight Regular";
     font-size: 1rem;
   }
 
   i {
-    font-family: "PMNCaeciliaSans Text Italic";
+    font-family: "Inter Tight Italic";
   }
 
   .box,
@@ -299,4 +299,38 @@ ul.box {
   font-weight: normal;
   src: local("Avenir Next Lt Pro Italic"),
     url("/fonts/AvenirNext/AvenirNextLTPro-It.otf") format("opentype");
+}
+
+/* Inter Tight Font Family
+------------------------------------------------------------ */
+@font-face {
+  font-family: "Inter Tight Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Inter Tight Regular"),
+    url("/fonts/InterTight/InterTight-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter Tight Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Inter Tight Bold"),
+    url("/fonts/InterTight/InterTight-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter Tight Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Inter Tight Italic"),
+    url("/fonts/InterTight/InterTight-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter Tight Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Inter Tight Bold Italic"),
+    url("/fonts/InterTight/InterTight-BoldItalic.ttf") format("truetype");
 }
