@@ -50,3 +50,5 @@ const centerColumn = document.querySelector('.centerColumn');
 gameContent.forEach( function(game) {
     centerColumn.prepend(game);
 });
+
+//Foreach loop to populate the links, each one can be different.

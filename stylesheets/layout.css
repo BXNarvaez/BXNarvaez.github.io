@@ -83,6 +83,7 @@ header {
   display: flex;
   flex-direction: row;
 }
+/* update the spacing on this */
 
 .menu .link {
   margin: 0px auto;
