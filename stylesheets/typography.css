@@ -58,6 +58,7 @@ ul {
 
 .desc-project,
 .settings,
+li .link,
 .desc-project a.link {
   font-family: "Inter Tight Regular";
   font-size: 0.75rem;
@@ -103,6 +104,7 @@ ul.box {
   .desc-project,
   .settings,
   ul, 
+  li .link, 
   .desc-project a.link {
     font-family: "Inter Tight Regular";
     font-size: 1rem;
@@ -140,6 +142,7 @@ ul.box {
   .desc-project,
   .settings,
   ul, 
+  li .link,
   .desc-project a.link {
     font-size: 1.25rem;
   }

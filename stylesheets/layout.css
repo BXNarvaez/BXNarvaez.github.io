@@ -166,6 +166,12 @@ img {
   margin: 5px 0px;
 }
 
+.resume {
+  width: 100%;
+  position: relative;
+  height: 521px;
+}
+
 /* Landscape settings
 ------------------------------------------------------------ */
 
@@ -198,6 +204,10 @@ img {
 
   .active-box {
     height: 157px;
+  }
+
+  .resume {
+    height: 947px;
   }
 }
 
