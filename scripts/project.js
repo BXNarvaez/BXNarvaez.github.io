@@ -4,7 +4,8 @@ class GameProject {
         name, 
         bannerImages,
         summary,
-        website,
+        linkAddresses,
+        linkTexts,
         readMore,
         id
     ) {
@@ -19,8 +20,11 @@ class GameProject {
         //A brief description of the project as a whole
         this.summary = summary;
 
-        //Link to an external webpage
-        this.website = website;
+        //An array of link address to external webpages
+        this.linkAddresses = linkAddresses;
+
+        //An array of texts to be hyperlinked with linkAddresses
+        this.linkTexts = linkTexts;
 
         //Link to the game's page within the website
         this.readMore = readMore;

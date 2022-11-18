@@ -38,8 +38,9 @@ h2,
   cursor: pointer;
 }
 
+/* Every project description should be 4 lines of text. Take the pixel height of one line multiplied by how many lines there are, and add the amount of one extra line to calculate the description-wrap*/
 div.description-wrap {
-  height: 136px;
+  height: 90px;
 }
 
 /* Module to active-box. When an element has this class but not active box, it is essentially hidden from view. */
@@ -51,8 +52,9 @@ div.description-wrap {
 }
 
 /* Module to collapsible-box. When a project banner is clicked on, this class is toggled to reveal what is hidden by collapsible-box */
+/* Take the height of description wrap, add the height of the link text row, and add 5 pixels to calculate the active box */
 .active-box {
-  height: 160px;
+  height: 119px;
   margin: 5px auto;
 }
 
@@ -82,10 +84,12 @@ header {
 .menu {
   display: flex;
   flex-direction: row;
+  padding: 5px auto;
 }
 /* update the spacing on this */
 
 .menu .link {
+  padding: 0px 0px 5px;
   margin: 0px auto;
   width: auto;
 }
@@ -165,6 +169,7 @@ img {
 /* Landscape settings
 ------------------------------------------------------------ */
 
+/* 4/3 * original value */
 @media only screen and (orientation: landscape),
   only screen and (min-width: 641px) {
   h1 {
@@ -188,14 +193,15 @@ img {
   }
 
   div.description-wrap {
-    height: 136px;
+    height: 120px;
   }
 
   .active-box {
-    height: 168px;
+    height: 157px;
   }
 }
 
+/* 5/3 * original value */
 @media only screen and (min-width: 1921px) {
   header,
   .centerColumn,

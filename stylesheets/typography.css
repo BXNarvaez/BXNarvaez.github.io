@@ -52,12 +52,13 @@ ul {
 /* Header
 ------------------------------------------------------------ */
 
-.menu .link {
+/* .menu .link {
   font-size: 1rem;
-}
+} */
 
 .desc-project,
-.settings {
+.settings,
+.desc-project a.link {
   font-family: "Inter Tight Regular";
   font-size: 0.75rem;
   text-decoration: none;
@@ -92,16 +93,17 @@ ul.box {
   }
 
   h2, .link {
-    font-size: 1.66rem;
-  }
-
-  .menu .link {
     font-size: 1.33rem;
   }
 
+  /* .menu .link {
+    font-size: 1.66rem;
+  } */
+
   .desc-project,
   .settings,
-  ul {
+  ul, 
+  .desc-project a.link {
     font-family: "Inter Tight Regular";
     font-size: 1rem;
   }
@@ -127,17 +129,18 @@ ul.box {
     font-size: 2.92rem;
   }
 
-  h2 {
+  h2, .link {
     font-size: 2.0811rem;
   }
 
-  .menu .link {
+  /* .menu .link {
     font-size: 1.66rem;
-  }
+  } */
 
   .desc-project,
   .settings,
-  ul {
+  ul, 
+  .desc-project a.link {
     font-size: 1.25rem;
   }
 

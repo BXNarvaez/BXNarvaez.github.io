@@ -1,4 +1,4 @@
-//constructor (name, images, summary, externalLink, internalLink)
+//constructor (name, bannerImages, summary, linkAddresses, linkTexts, readMore, id)
 import GameProject from "./project.js";
 
 //List projects with the oldest being at the top/front of the array, and the most recent at the bottom/end of the array. This is because they must be prepended to the HTML in that order.
@@ -9,9 +9,11 @@ const hexPerplexGame = new GameProject (
 
     ['./images/hex/Hex480x120.jpg','./images/hex/Hex960x240.jpg','./images/hex/Hex1920x480.jpg'],
     
-    "A roguelike platformer about mastering powerful spells released for web browser. Made with David Queiroga over the span of two months. As our technical artist I coded in Unity and drew assets in Aseprite.",
+    "A roguelike platformer about mastering powerful spells released for web browser. Made with David Queiroga over the span of two months. As our technical artist I coded in Unity and illustrated in Aseprite.",
 
-    "https://danielnarvaezdesign.itch.io/hexperplex",
+    ["https://danielnarvaezdesign.itch.io/hexperplex"],
+
+    ["Play on Itch.io"],
 
     "./gamesProjects/hexPerplex.html",
 
@@ -27,7 +29,9 @@ const clockOutGame = new GameProject (
     
     "An arcade-style fighter about an unpaid intern fighting their bosses. Released for iOS and Android. Made with Team Crème at MassDigi SIP 2021. I was the team's designer, and worked in both Machinations and Unity.",
 
-    "https://danielnarvaezdesign.itch.io/clockout",
+    ["https://play.google.com/store/apps/details?id=com.MassDiGI.Creme", "https://apps.apple.com/us/app/clock-out/id1570676915"],
+
+    ["Download for Android", "Download for iOS"],
 
     "./gamesProjects/clockOut.html",
 
@@ -43,7 +47,9 @@ const boricuasGame = new GameProject (
 
     "My senior thesis project. A 2D experimental platformer about a diasporan who journeys to her motherland to discover the ways of her culture. Released for web browser. I hired and led a team during this project.",
 
-    "https://danielnarvaezdesign.itch.io/project-boricuas",
+    ["https://danielnarvaezdesign.itch.io/project-boricuas"],
+
+    ["Play on Itch.io"],
 
     "./gamesProjects/boricuas.html",
 

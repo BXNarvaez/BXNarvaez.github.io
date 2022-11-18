@@ -4,7 +4,7 @@ const gameContent = gamesData.map((game) => {
 
     // The article wraps both the project-banner and collapsible-box elements into one for an easier prepend. Because of this, the game ID goes on the outer article.
     let gameArticle = document.createElement('article');
-    gameArticle.setAttribute("id", game.id)
+    gameArticle.setAttribute("id", game.id);
     gameArticle.style.backgroundColor = "transparent";
 
     gameArticle.innerHTML = `
@@ -29,18 +29,26 @@ const gameContent = gamesData.map((game) => {
 
             <div class="description-wrap">
 
-                <p class="desc-project">${game.summary} <a class="link" href=${game.readMore}>Read More</a></p>
+                <p class="desc-project">${game.summary} <a class="link" href=${game.readMore}>Read more</a></p>
 
             </div>
 
-            <nav class="menu">
-
-                <a class="link" target="_blank" href=${game.website}>Website</a>
-
-            </nav>
-
         </section>
     `;
+
+    let linkMenu = document.createElement('nav')
+    linkMenu.setAttribute("class", "menu")
+    
+    for (let index = 0; index < game.linkAddresses.length; index++) {
+        let _link = document.createElement('a');
+        _link.setAttribute("class", "link");
+        _link.setAttribute("href", game.linkAddresses[index])
+        _link.innerHTML = `${game.linkTexts[index]}`;
+
+        linkMenu.append(_link);
+    }
+
+    gameArticle.lastElementChild.append(linkMenu);
 
     return gameArticle;
 });
@@ -49,6 +57,7 @@ const centerColumn = document.querySelector('.centerColumn');
 
 gameContent.forEach( function(game) {
     centerColumn.prepend(game);
+
 });
 
 //Foreach loop to populate the links, each one can be different.
