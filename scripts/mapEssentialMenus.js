@@ -8,6 +8,7 @@ mainMenu.innerHTML = `
     <div class="menu" role="navigation" aria-label="main menu">
 
         <a class="link" href="/index.html">Games</a>
+        <a class="link" href="/systems.html">Systems</a>
         <a class="link" href="/about.html">About</a>
         <a class="link" href="/resume.html">Resume</a>
 
