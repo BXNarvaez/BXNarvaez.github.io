@@ -26,8 +26,8 @@ contactMenu.innerHTML = `
     <div class="menu">
 
         <a class="link" href="mailto:daniel@danielnarvaez.design">Email</a>
-        <a class="link" target="_blank" href="https://www.linkedin.com/in/danielnarvaezart/">LinkedIn</a>
-        <a class="link" target="_blank" href="https://twitter.com/BXNarvaez">Twitter</a> 
+        <a class="link" target="_blank" href="https://www.linkedin.com/in/danielnarvaezdesign/">LinkedIn</a>
+        <a class="link" target="_blank" href="https://twitter.com/DNarvaezDesign">Twitter</a> 
 
     </div>
 
