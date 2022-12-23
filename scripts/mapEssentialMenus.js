@@ -5,14 +5,14 @@ mainMenu.innerHTML = `
 
     <h1>Daniel Narvaez</h1>
             
-    <div class="menu" role="navigation" aria-label="main menu">
+    <nav class="menu" role="navigation" aria-label="main menu">
 
         <a class="link" href="/index.html">Games</a>
         <a class="link" href="/systems.html">Systems</a>
         <a class="link" href="/about.html">About</a>
         <a class="link" href="/resume.html">Resume</a>
 
-    </div>
+    </nav>
 
 `
 
@@ -23,13 +23,14 @@ contactMenu.innerHTML = `
 
     <h2 style="text-align: center;">Let's connect.</h2>
 
-    <div class="menu">
+    <nav class="menu">
 
-        <a class="link" href="mailto:daniel@danielnarvaez.design">Email</a>
         <a class="link" target="_blank" href="https://www.linkedin.com/in/danielnarvaezdesign/">LinkedIn</a>
-        <a class="link" target="_blank" href="https://twitter.com/DNarvaezDesign">Twitter</a> 
+        <a class="link" target="_blank" href="https://twitter.com/DNarvaezDesign">Twitter</a>
+        <a class="link" href="mailto:daniel@danielnarvaez.design">Email</a>
+        <a class="link" target="_blank" href="https://machinations.io/community/danielnarvaezdesign/">Machinations</a>
 
-    </div>
+    </nav>
 
 `
 
