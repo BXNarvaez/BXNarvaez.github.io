@@ -2,6 +2,40 @@
 import GameProject from "./project.js";
 
 //List projects with the oldest being at the top/front of the array, and the most recent at the bottom/end of the array. This is because they must be prepended to the HTML in that order.
+const almaGame = new GameProject (
+
+    "Alma and the Cave of Breaths",
+
+    ['./images/alma/Alma480.jpg', './images/alma/Alma960.jpg', './images/alma/Alma1920.jpg'],
+
+    "A handdrawn 2D platformer. My first game exhibited to the public at Wonderville NYC. As a solo developer I processed all of the art and designed the game in Unity.",
+
+    ["https://danielnarvaezdesign.itch.io/alma"],
+
+    ["Play on Itch.io"],
+
+    "./gamesProjects/alma.html",
+
+    "Project_0"
+
+);
+
+const trackGame = new GameProject (
+
+    "Track",
+
+    ['./images/track/Track480.jpg', './images/track/Track960.jpg', './images/track/Track1920.jpg'],
+
+    "An experimental walking simulator exploring the cause & effect relationship between enactive realism and user engagement in games. Developed in Unity, I modeled the 3D assets and composed the soundtracks.",
+
+    ["https://danielnarvaezdesign.itch.io/track"],
+
+    ["Play on Itch.io"],
+
+    "./gamesProjects/track.html",
+
+    "Project_1"
+)
 
 const hexPerplexGame = new GameProject (
 
@@ -17,7 +51,7 @@ const hexPerplexGame = new GameProject (
 
     "./gamesProjects/hexPerplex.html",
 
-    "Project_0"
+    "Project_2"
 
 );
 
@@ -35,7 +69,7 @@ const clockOutGame = new GameProject (
 
     "./gamesProjects/clockOut.html",
 
-    "Project_1"
+    "Project_3"
 
 );
 
@@ -53,11 +87,11 @@ const boricuasGame = new GameProject (
 
     "./gamesProjects/boricuas.html",
 
-    "Project_2"
+    "Project_4"
 
 );
 
 // The array with all of the project information. This gets exported to scripts/mapgamesdata.js to be reiterated into the html.
-const gamesData = [hexPerplexGame, clockOutGame, boricuasGame]
+const gamesData = [boricuasGame, clockOutGame, hexPerplexGame, trackGame, almaGame]
 
 export default gamesData;

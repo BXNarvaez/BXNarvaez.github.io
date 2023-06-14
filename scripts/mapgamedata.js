@@ -42,6 +42,7 @@ const gameContent = gamesData.map((game) => {
     for (let index = 0; index < game.linkAddresses.length; index++) {
         let _link = document.createElement('a');
         _link.setAttribute("class", "link");
+        _link.setAttribute("target", "_blank");
         _link.setAttribute("href", game.linkAddresses[index])
         _link.innerHTML = `${game.linkTexts[index]}`;
 
@@ -56,7 +57,7 @@ const gameContent = gamesData.map((game) => {
 const centerColumn = document.querySelector('.centerColumn');
 
 gameContent.forEach( function(game) {
-    centerColumn.prepend(game);
+    centerColumn.append(game);
 
 });
 
