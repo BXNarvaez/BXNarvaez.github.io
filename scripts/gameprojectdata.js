@@ -91,7 +91,25 @@ const boricuasGame = new GameProject (
 
 );
 
+const starGame = new GameProject (
+
+    'Star Sweepers',
+
+    ['./images/star/Star480x120.jpg','./images/star/Star960x240.jpg','./images/star/Star1920x480.jpg'],
+
+    "Description here",
+
+    ["https://danielnarvaezdesign.itch.io/star-sweepers"],
+
+    ["Play on Itch.io"],
+
+    "./gamesProjects/star.html",
+
+    "Project_5"
+
+)
+
 // The array with all of the project information. This gets exported to scripts/mapgamesdata.js to be reiterated into the html.
-const gamesData = [boricuasGame, clockOutGame, hexPerplexGame, trackGame, almaGame]
+const gamesData = [starGame, boricuasGame, clockOutGame, hexPerplexGame, trackGame, almaGame]
 
 export default gamesData;
