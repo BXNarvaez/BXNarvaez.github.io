@@ -8,13 +8,13 @@ mainMenu.innerHTML = `
     <nav class="menu" role="navigation" aria-label="main menu">
 
         <a class="link" href="/index.html">Games</a>
-        <a class="link" href="/systems.html">Systems</a>
         <a class="link" href="/about.html">About</a>
         <a class="link" href="/resume.html">Resume</a>
-
+        
     </nav>
-
-`
+        
+    `
+        // <a class="link" href="/systems.html">Systems</a>
 
 const contactMenu = document.createElement('section');
 contactMenu.setAttribute('id', 'contact-menu');
@@ -25,14 +25,14 @@ contactMenu.innerHTML = `
 
     <nav class="menu">
 
-        <a class="link" target="_blank" href="https://www.linkedin.com/in/danielnarvaezdesign/">LinkedIn</a>
-        <a class="link" target="_blank" href="https://twitter.com/DNarvaezDesign">Twitter</a>
-        <a class="link" href="mailto:daniel@danielnarvaez.design">Email</a>
-        <a class="link" target="_blank" href="https://machinations.io/community/danielnarvaezdesign/">Machinations</a>
-
+        <a class="link" target="_blank" href="https://www.linkedin.com/in/dan-narvaez/">LinkedIn</a>
+        <a class="link" target="_blank" href="https://twitter.com/BXNarvaez">Twitter</a>
+        <a class="link" href="mailto:hello@daniel-narvaez.com">Email</a>
+        
     </nav>
-
-`
+        
+    `
+        // <a class="link" target="_blank" href="https://machinations.io/community/danielnarvaezdesign/">Machinations</a>
 
 const themeMenu = document.createElement('section');
 themeMenu.setAttribute('id', 'theme-menu');
