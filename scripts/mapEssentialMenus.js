@@ -9,7 +9,6 @@ mainMenu.innerHTML = `
 
         <a class="link" href="/index.html">Games</a>
         <a class="link" href="/about.html">About</a>
-        <a class="link" href="/resume.html">Resume</a>
         
     </nav>
         
